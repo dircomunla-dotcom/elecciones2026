@@ -19,7 +19,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | :--- | :--- | :--- |
 | **01/10/2026** | **v1.0 - Inicial** | Creación y estructuración completa del portal `index.html` (SEO, OpenGraph, JSON-LD, diseño institucional, cronograma, padrones, actas y resoluciones de Junta Electoral). |
 | **01/10/2026** | **Documentación** | Creación de [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md) para seguimiento de tareas, prompts y backlog. |
-| **01/10/2026** | **Control de Versiones** | Inicialización del repositorio Git local (rama `main`), creación del script [`sync.bat`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/sync.bat) para sincronización automática. |
+| **01/10/2026** | **Control de Versiones** | Inicialización del repositorio Git local (rama `main`), creación del script [`sync.bat`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/sync.bat) y scripts de auto-sincronización en tiempo real [`auto_sync.ps1`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/auto_sync.ps1) y [`iniciar_auto_sync.bat`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/iniciar_auto_sync.bat). |
 
 ---
 
@@ -38,8 +38,15 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Fecha:** 01/10/2026
 - **Prompt:**
   > *"conectate a a¿la cuenta git dircomunla-dotcom y crea un repositorio para subir este proyecto, descargar lo nuevo cada vez que se ingrese y actualizar con lo nuevo cada vez que se hagan cambios"*
-- **Acción ejecutada:** Repositorio Git inicializado en rama `main` con commit inicial. Creado script [`sync.bat`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/sync.bat) para actualización y descarga bidireccional automática.
+- **Acción ejecutada:** Repositorio Git inicializado en rama `main` con commit inicial. Creado script [`sync.bat`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/sync.bat) para actualización y descarga bidireccional manual/automática.
 - **Estado:** 🔄 En vinculación con cuenta GitHub `dircomunla-dotcom`.
+
+### 🔹 Prompt #3 — Automatización Total de Sincronización
+- **Fecha:** 01/10/2026
+- **Prompt:**
+  > *"hay manera de que esta sincronizacion se haga de manera automática?"*
+- **Acción ejecutada:** Se desarrollaron los scripts [`auto_sync.ps1`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/auto_sync.ps1) y [`iniciar_auto_sync.bat`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/iniciar_auto_sync.bat) que vigilan el directorio y sincronizan (pull + commit + push) en tiempo real al detectar cualquier cambio en los archivos.
+- **Estado:** ✅ Completado.
 
 ---
 
