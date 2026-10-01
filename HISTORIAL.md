@@ -52,31 +52,40 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Fecha:** 01/10/2026
 - **Prompt:**
   > *"En el historial, agrega este prompt para que quede guardado así sabemos qué tenemos que hacer cada vez que se suba una nueva acta. Redactalo del modo que mejor funcione:*
-  > *Agregar al menú Actas de la Junta Electoral el acta-5-JE.pdf (el nombre que corresponda). Que quede arriba de todo en ese espacio, para que siempre se vaya de la más reciente a la más antigua. Al igual que las otras actas, coloca la fecha de publicación y un botón para descarga. Agrega una línea que explique de qué se trata."*
-- **Acción ejecutada:** Se redactó y guardó la fórmula y plantilla optimizada de prompt en la sección 5 para reutilizar en cada nueva publicación de actas.
+  > *Agregar al menú Actas de la Junta Electoral el acta-5-JE.pdf (el nombre que corresponda). Que quede arriba de todo en ese espacio, para que siempre se vaya de la más reciente a la más antigua. Al igual que las otras actas, coloca la fecha de publicación y un botón para descarga. Agrega una línea que explique de qué se trata.*
+  > *Debe quedar claro en el prompt que el Título, Fecha y Resumen lo debe completar el asistente a través de la lectura del archivo PDF que se incorpora."*
+- **Acción ejecutada:** Se diseñó el prompt maestro en la sección 5 con la directiva explícita de lectura e interpretación del PDF por parte del asistente de IA.
 - **Estado:** ✅ Completado.
 
 ---
 
 ## 📌 5. Prompts Frecuentes y Recurrentes (Copiar y Pegar)
 
-### 📄 Publicación de Nueva Acta de la Junta Electoral
-Copia y completa este prompt cuando se publique una nueva acta para que la IA la agregue con el formato y orden exactos:
+### 📄 Publicación de Nueva Acta de la Junta Electoral (Lectura e Inserción Automática)
+Copia este prompt cada vez que agregues un nuevo archivo PDF de un acta a la carpeta del proyecto. **El asistente leerá el documento directamente y extraerá la fecha, número y resumen oficial**:
 
 ```text
-Por favor agrega una nueva acta en el archivo index.html con las siguientes especificaciones:
-1. Sección: "Actas de la Junta Electoral" (#sec-actas-junta en el contenedor #actas-list).
-2. Posición: Arriba de todo (primera posición de la lista), manteniendo el orden cronológico descendente (de la más reciente a la más antigua).
-3. Datos del Acta:
-   - Archivo PDF: acta-[NUMERO]-JE.pdf (URL: https://www.unla.edu.ar/elecciones2026/acta-[NUMERO]-JE.pdf)
-   - Título: Acta N° [NUMERO]
-   - Fecha de Publicación: [DÍA de MES de AÑO]
-   - Resumen / Descripción: [Breve explicación de 1 o 2 líneas de lo resuelto por la Junta Electoral]
-4. Botón: Enlace con clase "unla-btn-primary" que abra el PDF en nueva pestaña (target="_blank" rel="noopener") con texto "📄 Ver Acta N° [NUMERO] (PDF)".
+Se ha incorporado el archivo [NOMBRE_DEL_ARCHIVO, ej: acta-5-JE.pdf]. Por favor realiza las siguientes acciones:
+
+1. LECTURA DEL DOCUMENTO:
+   - Lee el contenido del archivo PDF incorporado.
+   - Extrae:
+     a) Número de Acta (ej: Acta N° 5).
+     b) Fecha oficial de emisión/publicación que figura en el documento.
+     c) Redacta un resumen claro y conciso de 1 o 2 líneas explicando de qué se trata lo resuelto por la Junta Electoral.
+
+2. INSERCIÓN EN index.html:
+   - Ubicación: Sección "Actas de la Junta Electoral" (#sec-actas-junta) dentro del contenedor #actas-list.
+   - Posición: Colócala ARRIBA DE TODO (primera posición), manteniendo el orden cronológico de la más reciente a la más antigua.
+   - Estructura y Estilos:
+     • Badge "Junta Electoral" y Badge con la fecha extraída (ej: "📅 02 de octubre de 2026").
+     • Título enlazado al PDF.
+     • Resumen/descripción redactado con terminación "(PDF).".
+     • Botón con clase "unla-btn-primary" hacia "https://www.unla.edu.ar/elecciones2026/[NOMBRE_DEL_ARCHIVO]" (target="_blank" rel="noopener") con texto "📄 Ver Acta N° [X] (PDF)".
 ```
 
-> **Ejemplo de uso real para Acta N° 5:**
-> *"Por favor agrega el acta-5-JE.pdf en la sección de Actas de la Junta Electoral (#sec-actas-junta) arriba de todo en #actas-list. Título: 'Acta N° 5', Fecha: '02 de octubre de 2026', Descripción: 'Aprobación definitiva de avales y padrones ajustados.', Enlace de descarga: https://www.unla.edu.ar/elecciones2026/acta-5-JE.pdf con botón '📄 Ver Acta N° 5 (PDF)'."*
+> **Ejemplo de mensaje súper simple que puedes enviar:**
+> *"Agregué el archivo `acta-5-JE.pdf`. Por favor léelo, extrae su fecha y redacta una línea con su resumen para agregarlo arriba de todo en la sección de Actas de la Junta Electoral de index.html con su botón de descarga."*
 
 ---
 
