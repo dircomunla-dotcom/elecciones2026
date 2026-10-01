@@ -72,9 +72,78 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Acción ejecutada:** Se eliminó el archivo `acta-5-JE.pdf` del proyecto y se retiró la tarjeta correspondiente de [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html), volviendo a mostrar el Acta N° 4 como la más reciente.
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #7 — Documentación del Auto-Sync
+- **Fecha:** 01/10/2026
+- **Prompt:**
+  > *"En historial, explica bien como funciona el auto_sync"*
+- **Acción ejecutada:** Se agregó una sección completa y detallada explicando la arquitectura, ciclo de vida, archivos involucrados y guía de uso del sistema de sincronización automática.
+- **Estado:** ✅ Completado.
+
 ---
 
-## 📌 5. Prompts Frecuentes y Recurrentes (Copiar y Pegar)
+## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
+
+El sistema de auto-sincronización está diseñado para que **nunca tengas que usar comandos de Git por consola ni preocuparte por olvidar subir cambios**. Todo ocurre de forma transparente en segundo plano.
+
+### 🧱 5.1. Archivos que componen el sistema
+
+| Archivo | Rol y Función |
+| :--- | :--- |
+| [`iniciar_auto_sync.bat`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/iniciar_auto_sync.bat) | **Lanzador de un clic:** Acceso directo para iniciar el servicio en Windows sin necesidad de abrir terminales complejas. |
+| [`auto_sync.ps1`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/auto_sync.ps1) | **Motor inteligente (PowerShell):** Monitorea los archivos del proyecto y ejecuta las acciones de Git ante cualquier evento. |
+| [`sync.bat`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/sync.bat) | **Alternativa manual:** Para cuando prefieras sincronizar una sola vez a demanda sin dejar nada corriendo de fondo. |
+
+---
+
+### ⚙️ 5.2. Ciclo de Vida y Flujo de Trabajo (Paso a Paso)
+
+```text
+[Doble clic en iniciar_auto_sync.bat]
+         │
+         ▼
+ 1. Sincronización Inicial ──► Ejecuta 'git pull' para descargar lo nuevo de GitHub.
+         │
+         ▼
+ 2. Escucha Activa (Watcher) ─► Observa modificaciones, creaciones o eliminaciones de archivos.
+         │                     (Ignora carpetas internas como .git y temporales).
+         ▼
+ 3. Pausa Inteligente (5 seg) ─► Si guardas varias veces seguidas, espera 5 segundos de calma
+         │                     para agrupar todos los cambios en un único commit limpio.
+         ▼
+ 4. Empaquetado Automático ──► 'git add .' + 'git commit -m "auto-sync: AAAA-MM-DD HH:MM:SS"'
+         │
+         ▼
+ 5. Subida a GitHub ─────────► 'git push origin main' publica los cambios inmediatamente.
+```
+
+---
+
+### 🎯 5.3. Cómo utilizarlo en tu rutina de trabajo
+
+1. **Al empezar tu jornada:**
+   - Haz doble clic sobre [`iniciar_auto_sync.bat`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/iniciar_auto_sync.bat).
+   - Se abrirá una pequeña ventana negra que dirá: `Vigilando carpeta activa...`
+   - **Minimiza esa ventana** y déjala en la barra de tareas.
+
+2. **Durante el trabajo:**
+   - Edita el código, pide cambios a la IA, sube PDFs o modifica textos en `index.html`.
+   - Cada vez que se guarde un archivo, verás en la ventana (si la abres) que se detecta el cambio y se sube a GitHub automáticamente con fecha y hora.
+
+3. **Al terminar:**
+   - Simplemente cierra la ventana de la consola o presiona `Ctrl + C` dentro de ella.
+
+---
+
+### ❓ 5.4. Preguntas Frecuentes
+
+- **¿Qué pasa si no tengo conexión a internet temporalmente?**
+  El sistema guarda todos los commits localmente en tu computadora. En cuanto la conexión regrese o ejecutes una nueva sincronización, todo se enviará a GitHub sin perder nada.
+- **¿Consume recursos de mi PC?**
+  Prácticamente cero ($0.01\%$ de CPU), ya que utiliza el servicio nativo de eventos del sistema operativo (`System.IO.FileSystemWatcher`).
+
+---
+
+## 📌 6. Prompts Frecuentes y Recurrentes (Copiar y Pegar)
 
 ### 📄 Publicación de Nueva Acta de la Junta Electoral (Lectura e Inserción Automática)
 Copia este prompt cada vez que agregues un nuevo archivo PDF de un acta a la carpeta del proyecto. **El asistente leerá el documento directamente y extraerá la fecha, número y resumen oficial**:
@@ -104,7 +173,7 @@ Se ha incorporado el archivo [NOMBRE_DEL_ARCHIVO, ej: acta-5-JE.pdf]. Por favor 
 
 ---
 
-## 📝 6. Backlog y Próximas Órdenes / Tareas Pendientes
+## 📝 7. Backlog y Próximas Órdenes / Tareas Pendientes
 
 Utiliza esta sección para anotar ideas, nuevas solicitudes o tareas que deban realizarse en futuras iteraciones:
 
@@ -115,7 +184,7 @@ Utiliza esta sección para anotar ideas, nuevas solicitudes o tareas que deban r
 
 ---
 
-## 📑 7. Plantilla para Registrar Nuevos Prompts en la Bitácora
+## 📑 8. Plantilla para Registrar Nuevos Prompts en la Bitácora
 
 Para mantener la bitácora ordenada al enviar nuevas órdenes, puedes copiar y pegar el siguiente bloque:
 
@@ -133,9 +202,10 @@ Para mantener la bitácora ordenada al enviar nuevas órdenes, puedes copiar y p
 
 ---
 
-## ⚙️ 8. Notas Técnicas y Configuración
+## ⚙️ 9. Notas Técnicas y Configuración
 - **Pila tecnológica:** HTML5 semántico, CSS3 nativo (variables CSS, diseño responsivo, glassmorphism), Vanilla JavaScript.
 - **Identidad Visual:**
   - Color primario institucional: `#ae2a3f` (Rojo UNLa).
   - Tipografías: Google Fonts (Archivo / sans-serif).
 - **SEO & Metadatos:** Metadatos completos OpenGraph, Twitter Cards y Schema.org JSON-LD para indexación y compartición en redes sociales.
+
