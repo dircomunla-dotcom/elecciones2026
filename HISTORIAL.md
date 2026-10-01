@@ -48,9 +48,39 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Acción ejecutada:** Se desarrollaron los scripts [`auto_sync.ps1`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/auto_sync.ps1) y [`iniciar_auto_sync.bat`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/iniciar_auto_sync.bat) que vigilan el directorio y sincronizan (pull + commit + push) en tiempo real al detectar cualquier cambio en los archivos.
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #4 — Plantilla Estándar para Incorporar Nuevas Actas
+- **Fecha:** 01/10/2026
+- **Prompt:**
+  > *"En el historial, agrega este prompt para que quede guardado así sabemos qué tenemos que hacer cada vez que se suba una nueva acta. Redactalo del modo que mejor funcione:*
+  > *Agregar al menú Actas de la Junta Electoral el acta-5-JE.pdf (el nombre que corresponda). Que quede arriba de todo en ese espacio, para que siempre se vaya de la más reciente a la más antigua. Al igual que las otras actas, coloca la fecha de publicación y un botón para descarga. Agrega una línea que explique de qué se trata."*
+- **Acción ejecutada:** Se redactó y guardó la fórmula y plantilla optimizada de prompt en la sección 5 para reutilizar en cada nueva publicación de actas.
+- **Estado:** ✅ Completado.
+
 ---
 
-## 📝 4. Backlog y Próximas Órdenes / Tareas Pendientes
+## 📌 5. Prompts Frecuentes y Recurrentes (Copiar y Pegar)
+
+### 📄 Publicación de Nueva Acta de la Junta Electoral
+Copia y completa este prompt cuando se publique una nueva acta para que la IA la agregue con el formato y orden exactos:
+
+```text
+Por favor agrega una nueva acta en el archivo index.html con las siguientes especificaciones:
+1. Sección: "Actas de la Junta Electoral" (#sec-actas-junta en el contenedor #actas-list).
+2. Posición: Arriba de todo (primera posición de la lista), manteniendo el orden cronológico descendente (de la más reciente a la más antigua).
+3. Datos del Acta:
+   - Archivo PDF: acta-[NUMERO]-JE.pdf (URL: https://www.unla.edu.ar/elecciones2026/acta-[NUMERO]-JE.pdf)
+   - Título: Acta N° [NUMERO]
+   - Fecha de Publicación: [DÍA de MES de AÑO]
+   - Resumen / Descripción: [Breve explicación de 1 o 2 líneas de lo resuelto por la Junta Electoral]
+4. Botón: Enlace con clase "unla-btn-primary" que abra el PDF en nueva pestaña (target="_blank" rel="noopener") con texto "📄 Ver Acta N° [NUMERO] (PDF)".
+```
+
+> **Ejemplo de uso real para Acta N° 5:**
+> *"Por favor agrega el acta-5-JE.pdf en la sección de Actas de la Junta Electoral (#sec-actas-junta) arriba de todo en #actas-list. Título: 'Acta N° 5', Fecha: '02 de octubre de 2026', Descripción: 'Aprobación definitiva de avales y padrones ajustados.', Enlace de descarga: https://www.unla.edu.ar/elecciones2026/acta-5-JE.pdf con botón '📄 Ver Acta N° 5 (PDF)'."*
+
+---
+
+## 📝 6. Backlog y Próximas Órdenes / Tareas Pendientes
 
 Utiliza esta sección para anotar ideas, nuevas solicitudes o tareas que deban realizarse en futuras iteraciones:
 
@@ -61,7 +91,7 @@ Utiliza esta sección para anotar ideas, nuevas solicitudes o tareas que deban r
 
 ---
 
-## 📑 5. Plantilla para Agregar Nuevos Prompts
+## 📑 7. Plantilla para Registrar Nuevos Prompts en la Bitácora
 
 Para mantener la bitácora ordenada al enviar nuevas órdenes, puedes copiar y pegar el siguiente bloque:
 
@@ -79,9 +109,9 @@ Para mantener la bitácora ordenada al enviar nuevas órdenes, puedes copiar y p
 
 ---
 
-## ⚙️ 6. Notas Técnicas y Configuración
+## ⚙️ 8. Notas Técnicas y Configuración
 - **Pila tecnológica:** HTML5 semántico, CSS3 nativo (variables CSS, diseño responsivo, glassmorphism), Vanilla JavaScript.
 - **Identidad Visual:**
   - Color primario institucional: `#ae2a3f` (Rojo UNLa).
-  - Tipografías: Google Fonts (Inter / sans-serif).
+  - Tipografías: Google Fonts (Archivo / sans-serif).
 - **SEO & Metadatos:** Metadatos completos OpenGraph, Twitter Cards y Schema.org JSON-LD para indexación y compartición en redes sociales.
