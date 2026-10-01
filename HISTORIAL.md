@@ -20,7 +20,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **01/10/2026** | **v1.0 - Inicial** | Creación y estructuración completa del portal `index.html` (SEO, OpenGraph, JSON-LD, diseño institucional, cronograma, padrones, actas y resoluciones de Junta Electoral). |
 | **01/10/2026** | **Documentación** | Creación de [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md) para seguimiento de tareas, prompts y backlog. |
 | **01/10/2026** | **Control de Versiones** | Inicialización del repositorio Git local (rama `main`), creación del script [`sync.bat`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/sync.bat) y scripts de auto-sincronización en tiempo real [`auto_sync.ps1`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/auto_sync.ps1) y [`iniciar_auto_sync.bat`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/iniciar_auto_sync.bat). |
-| **01/10/2026** | **Publicación de Acta** | Incorporación de [`acta-5-JE.pdf`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/acta-5-JE.pdf) (Acta N° 5) en `index.html` en la cima de `#actas-list` con lectura automatizada de fecha y resumen. |
+| **01/10/2026** | **Reversión** | Retiro de `acta-5-JE.pdf` y remoción de la tarjeta en `index.html`, restableciendo el estado previo (hasta Acta N° 4). |
 
 ---
 
@@ -58,11 +58,18 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Acción ejecutada:** Se diseñó el prompt maestro en la sección 5 con la directiva explícita de lectura e interpretación del PDF por parte del asistente de IA.
 - **Estado:** ✅ Completado.
 
-### 🔹 Prompt #5 — Incorporación de Acta N° 5
+### 🔹 Prompt #5 — Incorporación de Acta N° 5 (Prueba)
 - **Fecha:** 01/10/2026
 - **Prompt:**
   > *"Agregué el archivo acta-5-JE.pdf. Por favor léelo, extrae la fecha y redacta un resumen para agregarlo arriba de todo en la sección de Actas de index.html con su botón de descarga"*
-- **Acción ejecutada:** Se leyó el documento [`acta-5-JE.pdf`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/acta-5-JE.pdf), se extrajo la fecha (25 de noviembre) y temática (cierre de primer turno e inicio de votación claustro Estudiantes DDPyT y DPyPP), y se insertó en la primera posición de `#actas-list` en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html).
+- **Acción ejecutada:** Se procesó y añadió el acta como prueba.
+- **Estado:** 🔄 Revertido en Prompt #6.
+
+### 🔹 Prompt #6 — Reversión de Acta N° 5
+- **Fecha:** 01/10/2026
+- **Prompt:**
+  > *"Me equivoqué. Esa acta-5-JE no va. Volvamos a como estaba antes"*
+- **Acción ejecutada:** Se eliminó el archivo `acta-5-JE.pdf` del proyecto y se retiró la tarjeta correspondiente de [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html), volviendo a mostrar el Acta N° 4 como la más reciente.
 - **Estado:** ✅ Completado.
 
 ---
