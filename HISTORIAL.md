@@ -19,6 +19,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | :--- | :--- | :--- |
 | **01/10/2026** | **v1.0 - Inicial** | Creación y estructuración completa del portal `index.html` (SEO, OpenGraph, JSON-LD, diseño institucional, cronograma, padrones, actas y resoluciones de Junta Electoral). |
 | **01/10/2026** | **Documentación** | Creación de [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md) para seguimiento de tareas, prompts y backlog. |
+| **01/10/2026** | **Control de Versiones** | Inicialización del repositorio Git local (rama `main`), creación del script [`sync.bat`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/sync.bat) para sincronización automática. |
 
 ---
 
@@ -33,12 +34,20 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Acción ejecutada:** Se creó el archivo [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md) con estructura modular para registrar historial, prompts futuros, backlog de tareas y notas técnicas.
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #2 — Conexión y Repositorio Git
+- **Fecha:** 01/10/2026
+- **Prompt:**
+  > *"conectate a a¿la cuenta git dircomunla-dotcom y crea un repositorio para subir este proyecto, descargar lo nuevo cada vez que se ingrese y actualizar con lo nuevo cada vez que se hagan cambios"*
+- **Acción ejecutada:** Repositorio Git inicializado en rama `main` con commit inicial. Creado script [`sync.bat`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/sync.bat) para actualización y descarga bidireccional automática.
+- **Estado:** 🔄 En vinculación con cuenta GitHub `dircomunla-dotcom`.
+
 ---
 
 ## 📝 4. Backlog y Próximas Órdenes / Tareas Pendientes
 
 Utiliza esta sección para anotar ideas, nuevas solicitudes o tareas que deban realizarse en futuras iteraciones:
 
+- [ ] Vincular repositorio remoto en GitHub (`dircomunla-dotcom/elecciones2026`).
 - [ ] *(Ejemplo) Actualizar enlaces de descarga cuando se publiquen nuevas actas de la Junta Electoral.*
 - [ ] *(Ejemplo) Incorporar sección de resultados provisorios post-escrutinio.*
 - [ ] *(Ejemplo) Optimizar accesibilidad o ajustes visuales adicionales.*
