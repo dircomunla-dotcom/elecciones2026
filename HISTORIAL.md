@@ -21,6 +21,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **01/10/2026** | **Documentación** | Creación de [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md) para seguimiento de tareas, prompts y backlog. |
 | **01/10/2026** | **Control de Versiones** | Inicialización del repositorio Git local (rama `main`), creación del script [`sync.bat`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/sync.bat) y scripts de auto-sincronización en tiempo real [`auto_sync.ps1`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/auto_sync.ps1) y [`iniciar_auto_sync.bat`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/iniciar_auto_sync.bat). |
 | **01/10/2026** | **Reversión** | Retiro de `acta-5-JE.pdf` y remoción de la tarjeta en `index.html`, restableciendo el estado previo (hasta Acta N° 4). |
+| **03/10/2026** | **Ajuste Menú y SEO** | Ocultamiento visual del botón de menú «Consulta de Padrones» en `index.html` y retiro de términos relacionados en metadatos y JSON-LD para no indexación en buscadores. |
 
 ---
 
@@ -77,6 +78,13 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Prompt:**
   > *"En historial, explica bien como funciona el auto_sync"*
 - **Acción ejecutada:** Se agregó una sección completa y detallada explicando la arquitectura, ciclo de vida, archivos involucrados y guía de uso del sistema de sincronización automática.
+- **Estado:** ✅ Completado.
+
+### 🔹 Prompt #8 — Ocultamiento de Consulta de Padrones y Desindexación SEO
+- **Fecha:** 03/10/2026
+- **Prompt:**
+  > *"En el archivo index.html necesito ocultar (no eliminar, sino que no se vea para quien navegue la web) el menú Consulta de Padrones. También necesito que a ese menú tampoco se lo encuentre en buscadores"*
+- **Acción ejecutada:** Se ocultó visualmente el elemento del menú en `index.html` mediante `style="display: none;"` (conservando el código para activaciones futuras) y se retiraron las palabras clave directas en `<meta name="keywords">` y el esquema Schema.org JSON-LD para evitar que los motores de búsqueda indexen o prioricen la consulta de padrones.
 - **Estado:** ✅ Completado.
 
 ---
