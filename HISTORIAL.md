@@ -27,6 +27,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **07/10/2026** | **Incorporación Acta N° 6** | Adición oficial de `acta-6-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 7 de octubre de 2026, resumen resolutivo y botón de descarga. |
 | **07/10/2026** | **Habilitación Menú Listas** | Habilitación del menú y sección «Listas» en `index.html` incorporando visor de PDF embebido, botón de descarga directa y separador para las Listas 2 (GRANATE), 7 (Frente de Estudiantes de Izquierda), 10 (¡Ya Basta!) y 22 (Malvinas Argentinas). |
 | **07/10/2026** | **Ajustes y Noticia de Listas** | Ajuste de título a «Listas», reordenamiento (2, 10, 7, 22), actualización de nombres oficiales de listas y publicación de nueva noticia en cabecera de «Noticias y Novedades Electorales» con linkeo a la sección. |
+| **07/10/2026** | **Aviso Móvil en Visor de Listas** | Inclusión de mensaje aclaratorio y recomendación de descarga para usuarios en dispositivos móviles en cada visor de lista. |
 
 ---
 
@@ -125,6 +126,13 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Prompt:**
   > *"El título, en lugar de ser Listas Candidatas Oficializadas, debería ser sólo Listas. Vamos a cambiar el orden: Lista 2, Lista 10, Lista 7, Lista 22. En el nombre de las listas, deberá decir: Lista 2: Granate, Lista 10: Roja - ¡Ya Basta! - La lista de les estudiantes, Lista 7: Multicolor - Frente de Estudiantes de Izquierda, Lista 22: Celeste y Blanca - Malvinas Argentinas. A su vez, deberíamos redactar un párrafo como noticia para poner en primer lugar en Noticias y Novedades Electorales dentro de Información general (dejando la que ya está en segundo lugar), informando que se han presentado las listas y serán exhibidas hasta el 10 de octubre inclusive. El 13 y 14 de octubre la Junta electoral recibirá posibles impugnaciones, que trasladará a los apoderados de las listas el día 15. Linkear a la sección #listas"*
 - **Acción ejecutada:** Se simplificó el título de la sección a «Listas», se reorganizó la secuencia de listas al orden solicitado (Lista 2, Lista 10, Lista 7, Lista 22), se actualizaron los nombres exactos de cada una, y se incorporó en primer lugar dentro de «Noticias y Novedades Electorales» la comunicación institucional informando el cronograma de exhibición e impugnaciones con enlace interactivo a la sección `#listas`.
+- **Estado:** ✅ Completado.
+
+### 🔹 Prompt #14 — Mensaje Aclaratorio para Visualización en Móviles
+- **Fecha:** 07/10/2026
+- **Prompt:**
+  > *"el visor de pdf no funciona bien en móviles. Podríamos poner algún mensaje aclaratorio para cuando alguien ingrese al menú Listas con su móvil y no la vea? Algún texto que diga (en cada visor) que en dispositivos móviles se aconseja descargar el pdf para poder verlo"*
+- **Acción ejecutada:** Se incorporó un bloque informativo destacado institucional (`📱 En dispositivos móviles se aconseja descargar el PDF para poder verlo.`) arriba de cada uno de los visores de PDF en la sección `#sec-listas` de [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html).
 - **Estado:** ✅ Completado.
 
 ---
