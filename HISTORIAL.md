@@ -28,6 +28,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **07/10/2026** | **Habilitación Menú Listas** | Habilitación del menú y sección «Listas» en `index.html` incorporando visor de PDF embebido, botón de descarga directa y separador para las Listas 2 (GRANATE), 7 (Frente de Estudiantes de Izquierda), 10 (¡Ya Basta!) y 22 (Malvinas Argentinas). |
 | **07/10/2026** | **Ajustes y Noticia de Listas** | Ajuste de título a «Listas», reordenamiento (2, 10, 7, 22), actualización de nombres oficiales de listas y publicación de nueva noticia en cabecera de «Noticias y Novedades Electorales» con linkeo a la sección. |
 | **07/10/2026** | **Aviso Móvil en Visor de Listas** | Inclusión de mensaje aclaratorio y recomendación de descarga para usuarios en dispositivos móviles en cada visor de lista. |
+| **07/10/2026** | **Visibilidad Exclusiva Móvil** | Configuración responsiva por CSS (`@media (max-width: 768px)`) para que el aviso de descarga de PDF se oculte automáticamente en computadoras de escritorio y sólo se muestre a usuarios que naveguen desde dispositivos móviles. |
 
 ---
 
