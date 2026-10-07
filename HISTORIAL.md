@@ -9,7 +9,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 - **Institución:** Universidad Nacional de Lanús (UNLa).
 - **Archivos Principales:**
   - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html): Archivo único con estructura HTML, estilos CSS integrados, scripts JS interactivos, componentes y SEO estructurado.
-  - Documentos Oficiales: `acta-1-JE.pdf`, `acta-2-JE.pdf`, `acta-3-JE.pdf`, `acta-4-JE.pdf`, `acta-5-JE.pdf`.
+  - Documentos Oficiales: `acta-1-JE.pdf`, `acta-2-JE.pdf`, `acta-3-JE.pdf`, `acta-4-JE.pdf`, `acta-5-JE.pdf`, `acta-6-JE.pdf`.
 
 ---
 
@@ -24,6 +24,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **03/10/2026** | **Ajuste Menú y SEO** | Ocultamiento visual del botón de menú «Consulta de Padrones» en `index.html` y retiro de términos relacionados en metadatos y JSON-LD para no indexación en buscadores. |
 | **03/10/2026** | **Enlace RCS-132-2026** | Incorporación de enlace directo y botón de descarga al PDF oficial de la Resolución del Consejo Superior RCS-132/2026 en las secciones «Resoluciones de Interés» y «Junta Electoral». |
 | **07/10/2026** | **Incorporación Acta N° 5** | Adición oficial de `acta-5-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 7 de octubre de 2026, resumen resolutivo y botón de descarga. |
+| **07/10/2026** | **Incorporación Acta N° 6** | Adición oficial de `acta-6-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 7 de octubre de 2026, resumen resolutivo y botón de descarga. |
 
 ---
 
@@ -101,6 +102,13 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Prompt:**
   > *"Agregué el archivo `acta-5-JE.pdf`. Por favor léelo, extrae su fecha y redacta una línea con su resumen para agregarlo arriba de todo en la sección de Actas de la Junta Electoral de index.html con su botón de descarga."*
 - **Acción ejecutada:** Se realizó la lectura y análisis de [`acta-5-JE.pdf`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/acta-5-JE.pdf), identificando su fecha (7 de octubre de 2026) y contenido resolutivo (tratamiento y resolución de reclamos de padrones por omisión o elección de claustro e inclusiones de oficio por doble pertenencia). Se insertó la tarjeta correspondiente arriba de todo en la sección «Actas de la Junta Electoral» en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) con su enlace y botón de descarga oficial.
+- **Estado:** ✅ Completado.
+
+### 🔹 Prompt #11 — Incorporación de Acta N° 6 de la Junta Electoral
+- **Fecha:** 07/10/2026
+- **Prompt:**
+  > *"Agregué el archivo `acta-6-JE.pdf`. Por favor léelo, extrae su fecha y redacta una línea con su resumen para agregarlo arriba de todo en la sección de Actas de la Junta Electoral de index.html con su botón de descarga."*
+- **Acción ejecutada:** Se realizó la lectura y análisis de [`acta-6-JE.pdf`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/acta-6-JE.pdf), identificando su fecha (7 de octubre de 2026) y contenido resolutivo (recepción de listas y plataformas electorales por claustro, y otorgamiento de prórroga de 48 hs para completar avales). Se insertó la tarjeta correspondiente arriba de todo en la sección «Actas de la Junta Electoral» en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) con su enlace y botón de descarga oficial.
 - **Estado:** ✅ Completado.
 
 ---
