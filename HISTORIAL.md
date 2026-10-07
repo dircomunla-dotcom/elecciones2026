@@ -136,6 +136,13 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Acción ejecutada:** Se incorporó un bloque informativo destacado institucional (`📱 En dispositivos móviles se aconseja descargar el PDF para poder verlo.`) arriba de cada uno de los visores de PDF en la sección `#sec-listas` de [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html).
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #15 — Detección y Visibilidad Exclusiva en Móviles
+- **Fecha:** 07/10/2026
+- **Prompt:**
+  > *"Hay manera de hacer que el navegador detecte si se está ingresando desde un móvil y así aparecer el mensaje que advierte que para ver el pdf es recomendable descargarlo? De ser así, el mensaje sólo se mostraría si se ingresa desde un móvil"* / *"sí, la opción 1"*
+- **Acción ejecutada:** Se aplicó la clase `.unla-aviso-movil` a los mensajes de aviso en la sección `#sec-listas` de [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html), configurándola con `display: none;` para escritorio y `display: inline-flex;` dentro de la media query `@media (max-width: 768px)`, garantizando que el aviso solo se muestre al acceder desde dispositivos móviles.
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
