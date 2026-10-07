@@ -9,7 +9,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 - **Institución:** Universidad Nacional de Lanús (UNLa).
 - **Archivos Principales:**
   - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html): Archivo único con estructura HTML, estilos CSS integrados, scripts JS interactivos, componentes y SEO estructurado.
-  - Documentos Oficiales: `acta-1-JE.pdf`, `acta-2-JE.pdf`, `acta-3-JE.pdf`, `acta-4-JE.pdf`, `acta-5-JE.pdf`, `acta-6-JE.pdf`.
+  - Documentos Oficiales: `acta-1-JE.pdf`, `acta-2-JE.pdf`, `acta-3-JE.pdf`, `acta-4-JE.pdf`, `acta-5-JE.pdf`, `acta-6-JE.pdf`, `lista-2.pdf`, `lista-7.pdf`, `lista-10.pdf`, `lista-22.pdf`.
 
 ---
 
@@ -25,6 +25,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **03/10/2026** | **Enlace RCS-132-2026** | Incorporación de enlace directo y botón de descarga al PDF oficial de la Resolución del Consejo Superior RCS-132/2026 en las secciones «Resoluciones de Interés» y «Junta Electoral». |
 | **07/10/2026** | **Incorporación Acta N° 5** | Adición oficial de `acta-5-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 7 de octubre de 2026, resumen resolutivo y botón de descarga. |
 | **07/10/2026** | **Incorporación Acta N° 6** | Adición oficial de `acta-6-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 7 de octubre de 2026, resumen resolutivo y botón de descarga. |
+| **07/10/2026** | **Habilitación Menú Listas** | Habilitación del menú y sección «Listas» en `index.html` incorporando visor de PDF embebido, botón de descarga directa y separador para las Listas 2 (GRANATE), 7 (Frente de Estudiantes de Izquierda), 10 (¡Ya Basta!) y 22 (Malvinas Argentinas). |
 
 ---
 
@@ -109,6 +110,13 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Prompt:**
   > *"Agregué el archivo `acta-6-JE.pdf`. Por favor léelo, extrae su fecha y redacta una línea con su resumen para agregarlo arriba de todo en la sección de Actas de la Junta Electoral de index.html con su botón de descarga."*
 - **Acción ejecutada:** Se realizó la lectura y análisis de [`acta-6-JE.pdf`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/acta-6-JE.pdf), identificando su fecha (7 de octubre de 2026) y contenido resolutivo (recepción de listas y plataformas electorales por claustro, y otorgamiento de prórroga de 48 hs para completar avales). Se insertó la tarjeta correspondiente arriba de todo en la sección «Actas de la Junta Electoral» en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) con su enlace y botón de descarga oficial.
+- **Estado:** ✅ Completado.
+
+### 🔹 Prompt #12 — Habilitación del Menú y Sección Listas Oficializadas
+- **Fecha:** 07/10/2026
+- **Prompt:**
+  > *"Tenemos que habilitar un menú Listas. En él hay que poner visor y botón de descarga de los pdfs de las listas que están en la carpeta, en el siguiente orden. Coloca número de lista, debajo nombre, debajo el visor de pdf, debajo el botón de descarga y luego una línea separadora para que quede claro el fin de una lista y el comienzo de otra. Todas están subidas en la raíz de https://www.unla.edu.ar/elecciones2026/"*
+- **Acción ejecutada:** Se habilitó el botón de navegación «Listas» en el menú superior de [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) y se construyó el contenido de la sección `#sec-listas` conteniendo en orden numérico: Lista 2 (GRANATE), Lista 7 (Frente de Estudiantes de Izquierda), Lista 10 (¡Ya Basta!) y Lista 22 (Malvinas Argentinas), cada una con su número, nombre, visor iframe interactivo, botón de descarga oficial a `https://www.unla.edu.ar/elecciones2026/lista-X.pdf` y línea divisoria entre listas.
 - **Estado:** ✅ Completado.
 
 ---
