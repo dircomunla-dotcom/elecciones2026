@@ -96,6 +96,13 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Acción ejecutada:** Se agregó el enlace directo al PDF oficial en el título de la tarjeta y se añadió el botón de descarga «📄 Ver Resolución (PDF)» en la sección «Resoluciones de Interés y Normativa», además de vincularse en la mención introductoria de la sección «Junta Electoral».
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #10 — Incorporación de Acta N° 5 de la Junta Electoral
+- **Fecha:** 07/10/2026
+- **Prompt:**
+  > *"Agregué el archivo `acta-5-JE.pdf`. Por favor léelo, extrae su fecha y redacta una línea con su resumen para agregarlo arriba de todo en la sección de Actas de la Junta Electoral de index.html con su botón de descarga."*
+- **Acción ejecutada:** Se realizó la lectura y análisis de [`acta-5-JE.pdf`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/acta-5-JE.pdf), identificando su fecha (7 de octubre de 2026) y contenido resolutivo (tratamiento y resolución de reclamos de padrones por omisión o elección de claustro e inclusiones de oficio por doble pertenencia). Se insertó la tarjeta correspondiente arriba de todo en la sección «Actas de la Junta Electoral» en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) con su enlace y botón de descarga oficial.
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
