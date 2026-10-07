@@ -9,7 +9,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 - **Institución:** Universidad Nacional de Lanús (UNLa).
 - **Archivos Principales:**
   - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html): Archivo único con estructura HTML, estilos CSS integrados, scripts JS interactivos, componentes y SEO estructurado.
-  - Documentos Oficiales: `acta-1-JE.pdf`, `acta-2-JE.pdf`, `acta-3-JE.pdf`, `acta-4-JE.pdf`.
+  - Documentos Oficiales: `acta-1-JE.pdf`, `acta-2-JE.pdf`, `acta-3-JE.pdf`, `acta-4-JE.pdf`, `acta-5-JE.pdf`.
 
 ---
 
@@ -23,6 +23,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **01/10/2026** | **Reversión** | Retiro de `acta-5-JE.pdf` y remoción de la tarjeta en `index.html`, restableciendo el estado previo (hasta Acta N° 4). |
 | **03/10/2026** | **Ajuste Menú y SEO** | Ocultamiento visual del botón de menú «Consulta de Padrones» en `index.html` y retiro de términos relacionados en metadatos y JSON-LD para no indexación en buscadores. |
 | **03/10/2026** | **Enlace RCS-132-2026** | Incorporación de enlace directo y botón de descarga al PDF oficial de la Resolución del Consejo Superior RCS-132/2026 en las secciones «Resoluciones de Interés» y «Junta Electoral». |
+| **07/10/2026** | **Incorporación Acta N° 5** | Adición oficial de `acta-5-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 7 de octubre de 2026, resumen resolutivo y botón de descarga. |
 
 ---
 
