@@ -29,6 +29,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **07/10/2026** | **Ajustes y Noticia de Listas** | Ajuste de título a «Listas», reordenamiento (2, 10, 7, 22), actualización de nombres oficiales de listas y publicación de nueva noticia en cabecera de «Noticias y Novedades Electorales» con linkeo a la sección. |
 | **07/10/2026** | **Aviso Móvil en Visor de Listas** | Inclusión de mensaje aclaratorio y recomendación de descarga para usuarios en dispositivos móviles en cada visor de lista. |
 | **07/10/2026** | **Visibilidad Exclusiva Móvil** | Configuración responsiva por CSS (`@media (max-width: 768px)`) para que el aviso de descarga de PDF se oculte automáticamente en computadoras de escritorio y sólo se muestre a usuarios que naveguen desde dispositivos móviles. |
+| **08/10/2026** | **Lazy Loading en Visores de Listas** | Aplicación del atributo `loading="lazy"` en todos los visores `<iframe>` de listas en `index.html` para diferir la descarga de PDFs, prevenir ráfagas concurrentes y evitar errores `429 Too Many Requests`. |
 
 ---
 
