@@ -144,6 +144,13 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Acción ejecutada:** Se aplicó la clase `.unla-aviso-movil` a los mensajes de aviso en la sección `#sec-listas` de [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html), configurándola con `display: none;` para escritorio y `display: inline-flex;` dentro de la media query `@media (max-width: 768px)`, garantizando que el aviso solo se muestre al acceder desde dispositivos móviles.
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #16 — Prevención de Error 429 (Too Many Requests) mediante Lazy Loading
+- **Fecha:** 08/10/2026
+- **Prompt:**
+  > *"cuando, dentro de listas, llego a la Lista 22, en el espacio del visor me dice 429 Too Many Requests nginx/1.28.0 qué puede ser?"* / *"hagamos la opción loading=lazy"*
+- **Acción ejecutada:** Se agregó el atributo `loading="lazy"` a todos los elementos `<iframe>` de visor de PDF en la sección `#sec-listas` de [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html). Esto difiere la carga de cada documento hasta que el usuario se desplaza visualmente hacia él, eliminando las ráfagas concurrentes de peticiones simultáneas a Nginx y resolviendo el error `429 Too Many Requests`.
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
