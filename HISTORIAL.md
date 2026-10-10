@@ -187,6 +187,16 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Acción ejecutada:** En [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html), dentro de la sección `#sec-padrones`, se modificó el título a «Consulta de Padrones», el subtítulo a «Consultá el padrón electoral correspondiente a tu claustro y departamento académico.» y se quitó la tarjeta con los textos explicativos y viñetas de reclamos, dejando directamente el iframe embebido de consulta.
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #21 — Incorporación de Instrucciones de Búsqueda en Consulta de Padrones
+- **Fecha:** 10/10/2026
+- **Prompt:**
+  > *"Vamos a ponerle en lugar del textoque quitamos, lo siguiente*
+  > *Ingresá números sin puntos, guiones ni espacios.*
+  > *Clickeá en \"No soy un robot\".*
+  > *Tu consulta arrojará como resultado el claustro, departamento o dependencia y carrera o subdependencia en donde estás empadronado/a."*
+- **Acción ejecutada:** En [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html), dentro de `#sec-padrones`, se insertó una tarjeta institucional (`.unla-card`) con la lista de indicaciones prácticas para que el usuario ingrese su DNI sin puntos ni guiones, valide el captcha y conozca la información de claustro y dependencia que obtendrá en el resultado.
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
