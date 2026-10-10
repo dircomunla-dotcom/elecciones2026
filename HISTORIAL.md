@@ -176,6 +176,16 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Acción ejecutada:** Se generó la copia [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html) a partir de [`index1.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index1.html). En este nuevo archivo se quitó el atributo `style="display: none;"` del elemento de navegación de «Consulta de Padrones», restableciendo su visibilidad en el menú principal y el acceso completo a la sección interactiva con sus instrucciones e iframe embebido.
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #20 — Simplificación de Texto en Consulta de Padrones (index2.html)
+- **Fecha:** 10/10/2026
+- **Prompt:**
+  > *"En index2.html haremos unos cambios de texto:*
+  > *Título: será Consulta de Padrones*
+  > *Como subtítulo poner Consultá el padrón electoral correspondiente a tu claustro y departamento académico.*
+  > *Quitar todo el resto del texto"*
+- **Acción ejecutada:** En [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html), dentro de la sección `#sec-padrones`, se modificó el título a «Consulta de Padrones», el subtítulo a «Consultá el padrón electoral correspondiente a tu claustro y departamento académico.» y se quitó la tarjeta con los textos explicativos y viñetas de reclamos, dejando directamente el iframe embebido de consulta.
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
