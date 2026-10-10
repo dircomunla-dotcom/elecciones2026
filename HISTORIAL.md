@@ -152,6 +152,13 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Acción ejecutada:** Se agregó el atributo `loading="lazy"` a todos los elementos `<iframe>` de visor de PDF en la sección `#sec-listas` de [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html). Esto difiere la carga de cada documento hasta que el usuario se desplaza visualmente hacia él, eliminando las ráfagas concurrentes de peticiones simultáneas a Nginx y resolviendo el error `429 Too Many Requests`.
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #17 — Copia index1 y Ocultamiento del Menú Listas
+- **Fecha:** 10/10/2026
+- **Prompt:**
+  > *"Vamos a copiar el archivo index.html, llamandolo index1. En ese nuevo archivo vamos a ocultar (no eliminar, ocultar) el menú Listas"*
+- **Acción ejecutada:** Se generó la copia [`index1.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index1.html) a partir de [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html). En este nuevo archivo se ocultó visualmente el elemento del menú «Listas» utilizando `style="display: none;"`, manteniendo preservado el código, los estilos y la sección completa `#sec-listas`.
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
