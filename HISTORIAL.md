@@ -168,6 +168,13 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Acción ejecutada:** En [`index1.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index1.html), dentro del primer artículo de «Noticias y Novedades Electorales» en la pestaña «Información General», se removió el botón «📋 Ver Listas Presentadas» y se retiró la oración final que contenía el enlace hacia `#listas`.
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #19 — Copia index2 y Habilitación de Consulta de Padrones
+- **Fecha:** 10/10/2026
+- **Prompt:**
+  > *"copia el index1 para generar un archivo de nombre index2. En este index2 vuelve a habilitar para que sea visible el menú de los padrones y su contenido"*
+- **Acción ejecutada:** Se generó la copia [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html) a partir de [`index1.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index1.html). En este nuevo archivo se quitó el atributo `style="display: none;"` del elemento de navegación de «Consulta de Padrones», restableciendo su visibilidad en el menú principal y el acceso completo a la sección interactiva con sus instrucciones e iframe embebido.
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
