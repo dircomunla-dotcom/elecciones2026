@@ -35,6 +35,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **10/10/2026** | **Copia index2.html y habilitación Consulta de Padrones** | Generación de `index2.html` basado en `index1.html`, reactivando la visibilidad del botón de menú y el acceso interactivo a la sección «Consulta de Padrones» (con su formulario e iframe integrado). |
 | **10/10/2026** | **Simplificación y nuevo texto en Consulta de Padrones (index2.html)** | En `index2.html`, actualización del título a «Consulta de Padrones», nuevo subtítulo («Consultá el padrón electoral correspondiente a tu claustro y departamento académico.») y remoción del texto previo sobre reclamos/plazos. |
 | **10/10/2026** | **Nuevas instrucciones en Consulta de Padrones (index2.html)** | Inclusión de guía paso a paso para la consulta en `index2.html` (ingreso de números sin puntos/guiones, captcha y detalle del resultado esperado). |
+| **10/10/2026** | **Cuadro destacado de electores habilitados (index2.html)** | Inclusión de bloque destacado en `index2.html` recordando los criterios estatutarios y reglamentarios de quiénes están habilitados a votar por cada claustro y departamento. |
 
 ---
 
