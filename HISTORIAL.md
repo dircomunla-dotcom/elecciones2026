@@ -30,6 +30,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **07/10/2026** | **Aviso Móvil en Visor de Listas** | Inclusión de mensaje aclaratorio y recomendación de descarga para usuarios en dispositivos móviles en cada visor de lista. |
 | **07/10/2026** | **Visibilidad Exclusiva Móvil** | Configuración responsiva por CSS (`@media (max-width: 768px)`) para que el aviso de descarga de PDF se oculte automáticamente en computadoras de escritorio y sólo se muestre a usuarios que naveguen desde dispositivos móviles. |
 | **08/10/2026** | **Lazy Loading en Visores de Listas** | Aplicación del atributo `loading="lazy"` en todos los visores `<iframe>` de listas en `index.html` para diferir la descarga de PDFs, prevenir ráfagas concurrentes y evitar errores `429 Too Many Requests`. |
+| **10/10/2026** | **Copia index1.html y ocultamiento menú Listas** | Creación del archivo `index1.html` basado en `index.html` con el ítem de navegación «Listas» oculto mediante `display: none;`, preservando la sección y código intactos. |
 
 ---
 
