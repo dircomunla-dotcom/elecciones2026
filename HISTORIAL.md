@@ -198,6 +198,18 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Acción ejecutada:** En [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html), dentro de `#sec-padrones`, se insertó una tarjeta institucional (`.unla-card`) con la lista de indicaciones prácticas para que el usuario ingrese su DNI sin puntos ni guiones, valide el captcha y conozca la información de claustro y dependencia que obtendrá en el resultado.
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #22 — Bloque Destacado de Habilitados/as a Votar en Padrones
+- **Fecha:** 10/10/2026
+- **Prompt:**
+  > *"Vamos a agregar debajo de ese texto un destacado que diga*
+  > *Recordá que están habilitados/as a votar:*
+  > *-Los/as estudiantes activos regulares de todos los Departamentos que cuentan con al menos dos asignaturas aprobadas en sus carreras.*
+  > *-Los y las docentes concursado/as ordinario/as de los Departamentos de Humanidades y Artes y Desarrollo Productivo y Tecnológico.*
+  > *-Los y las nodocentes de los Departamentos de Humanidades y Artes y Desarrollo Productivo y Tecnológico.*
+  > *-Los y las graduado/as de los Departamentos de Humanidades y Artes y Desarrollo Productivo y Tecnológico que ya hubieran recibido su diploma y se hubieran inscripto en el padrón correspondiente."*
+- **Acción ejecutada:** En [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html), dentro de la tarjeta de la sección `#sec-padrones`, se añadió un bloque destacado (`background: var(--unla-red-light); border-left: 4px solid var(--unla-red);`) detallando las condiciones reglamentarias y departamentos habilitados para votar en estudiantes, docentes, nodocentes y graduados/as.
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
