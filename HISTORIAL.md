@@ -33,6 +33,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **10/10/2026** | **Copia index1.html y ocultamiento menú Listas** | Creación del archivo `index1.html` basado en `index.html` con el ítem de navegación «Listas» oculto mediante `display: none;`, preservando la sección y código intactos. |
 | **10/10/2026** | **Ajuste Noticia en index1.html** | Remoción del botón «📋 Ver Listas Presentadas» y del texto/enlace a la sección «Listas» dentro de la primera noticia en «Información General». |
 | **10/10/2026** | **Copia index2.html y habilitación Consulta de Padrones** | Generación de `index2.html` basado en `index1.html`, reactivando la visibilidad del botón de menú y el acceso interactivo a la sección «Consulta de Padrones» (con su formulario e iframe integrado). |
+| **10/10/2026** | **Simplificación y nuevo texto en Consulta de Padrones (index2.html)** | En `index2.html`, actualización del título a «Consulta de Padrones», nuevo subtítulo («Consultá el padrón electoral correspondiente a tu claustro y departamento académico.») y remoción del texto previo sobre reclamos/plazos. |
 
 ---
 
