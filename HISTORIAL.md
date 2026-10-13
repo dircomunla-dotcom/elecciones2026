@@ -36,6 +36,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **10/10/2026** | **Simplificación y nuevo texto en Consulta de Padrones (index2.html)** | En `index2.html`, actualización del título a «Consulta de Padrones», nuevo subtítulo («Consultá el padrón electoral correspondiente a tu claustro y departamento académico.») y remoción del texto previo sobre reclamos/plazos. |
 | **10/10/2026** | **Nuevas instrucciones en Consulta de Padrones (index2.html)** | Inclusión de guía paso a paso para la consulta en `index2.html` (ingreso de números sin puntos/guiones, captcha y detalle del resultado esperado). |
 | **10/10/2026** | **Cuadro destacado de electores habilitados (index2.html)** | Inclusión de bloque destacado en `index2.html` recordando los criterios estatutarios y reglamentarios de quiénes están habilitados a votar por cada claustro y departamento. |
+| **13/10/2026** | **Reemplazo de index.html por index2.html** | Eliminación de la versión anterior de `index.html` y renombramiento de `index2.html` a `index.html`, consolidando como archivo principal la versión con Consulta de Padrones habilitada y menú actualizado. |
 
 ---
 
@@ -208,6 +209,13 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   > *-Los y las nodocentes de los Departamentos de Humanidades y Artes y Desarrollo Productivo y Tecnológico.*
   > *-Los y las graduado/as de los Departamentos de Humanidades y Artes y Desarrollo Productivo y Tecnológico que ya hubieran recibido su diploma y se hubieran inscripto en el padrón correspondiente."*
 - **Acción ejecutada:** En [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html), dentro de la tarjeta de la sección `#sec-padrones`, se añadió un bloque destacado (`background: var(--unla-red-light); border-left: 4px solid var(--unla-red);`) detallando las condiciones reglamentarias y departamentos habilitados para votar en estudiantes, docentes, nodocentes y graduados/as.
+- **Estado:** ✅ Completado.
+
+### 🔹 Prompt #23 — Reemplazo definitivo de index.html por index2.html
+- **Fecha:** 13/10/2026
+- **Prompt:**
+  > *"vamos a eliminar el archivo index.html y el archivo que tomará ese nombre será el que ahora se llama index2.html"*
+- **Acción ejecutada:** Se eliminó la versión previa de [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) y se renombró `index2.html` a [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html), consolidando de forma definitiva todos los cambios y novedades aplicadas sobre el padrón electoral como la página principal de producción.
 - **Estado:** ✅ Completado.
 
 ---
