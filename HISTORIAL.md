@@ -233,6 +233,18 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   2. En `#sec-noticias-general`, se añadió como noticia principal destacada en la cabecera el anuncio de la publicación de los padrones definitivos, con fecha 13 de octubre de 2026, texto explicativo para todos los claustros y botón/enlaces directos interactivos hacia la pestaña de consulta.
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #25 — Avisos de Campus Virtual en Padrones y Puestos de Votación
+- **Fecha:** 13/10/2026
+- **Prompt:**
+  > *"En el menú Padrones, vamos a agregar, debajo del destacado que comienza con Recordá que están habilitados... lo siguiente*
+  > *Importante para quienes voten de formar virtual: Si el mail de Campus Virtual que figura en tu registro no coincide con el que usás actualmente, comunicate con administracion_campus@unla.edu.ar*
+  >
+  > *También vamos a poner este mensaje como una aclaración en el menú Puestos de Votación, en el espacio de Puesto Electoral Virtual"*
+- **Acción ejecutada:** En [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html):
+  1. En `#sec-padrones`, debajo del bloque destacado de personas habilitadas a votar, se agregó una caja institucional destacando la indicación para votantes de modalidad virtual con enlace directo a `administracion_campus@unla.edu.ar`.
+  2. En `#sec-puestos-votacion`, dentro de la tarjeta «Puesto Electoral Virtual», se incorporó la misma aclaración con enlace a la casilla de soporte técnico del campus para quienes registren discordancias en su correo electrónico.
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
