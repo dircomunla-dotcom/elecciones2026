@@ -37,6 +37,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **10/10/2026** | **Nuevas instrucciones en Consulta de Padrones (index2.html)** | Inclusión de guía paso a paso para la consulta en `index2.html` (ingreso de números sin puntos/guiones, captcha y detalle del resultado esperado). |
 | **10/10/2026** | **Cuadro destacado de electores habilitados (index2.html)** | Inclusión de bloque destacado en `index2.html` recordando los criterios estatutarios y reglamentarios de quiénes están habilitados a votar por cada claustro y departamento. |
 | **13/10/2026** | **Reemplazo de index.html por index2.html** | Eliminación de la versión anterior de `index.html` y renombramiento de `index2.html` a `index.html`, consolidando como archivo principal la versión con Consulta de Padrones habilitada y menú actualizado. |
+| **13/10/2026** | **Novedad Padrones Definitivos y Puesto/Mesa de Votación** | En `index.html`, actualización del instructivo de Consulta de Padrones indicando que la búsqueda arroja también el puesto y mesa de votación. Publicación de nueva noticia en Información General informando la disponibilidad de los padrones definitivos con botón directo de consulta. |
 
 ---
 
@@ -216,6 +217,20 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Prompt:**
   > *"vamos a eliminar el archivo index.html y el archivo que tomará ese nombre será el que ahora se llama index2.html"*
 - **Acción ejecutada:** Se eliminó la versión previa de [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) y se renombró `index2.html` a [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html), consolidando de forma definitiva todos los cambios y novedades aplicadas sobre el padrón electoral como la página principal de producción.
+- **Estado:** ✅ Completado.
+
+### 🔹 Prompt #24 — Novedad de Padrones Definitivos y Actualización de Consulta
+- **Fecha:** 13/10/2026
+- **Prompt:**
+  > *"En Consulta de Padrones, donde dice*
+  > *Tu consulta arrojará como resultado el claustro, departamento o dependencia y carrera o subdependencia en donde estás empadronado/a.*
+  > *Poner*
+  > *Tu consulta arrojará como resultado el claustro, departamento o dependencia y carrera o subdependencia en donde estás empadronado/a, y tu puesto y mesa de votación.*
+  >
+  > *Además, hacer una noticia para que quede arriba entre las novedades de Información general, donde se cuente que ya están publicados los padrones definitivos y se pueden consultar en el enlace"*
+- **Acción ejecutada:** En [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html):
+  1. En `#sec-padrones`, se actualizó la indicación del resultado para incluir «, y tu puesto y mesa de votación».
+  2. En `#sec-noticias-general`, se añadió como noticia principal destacada en la cabecera el anuncio de la publicación de los padrones definitivos, con fecha 13 de octubre de 2026, texto explicativo para todos los claustros y botón/enlaces directos interactivos hacia la pestaña de consulta.
 - **Estado:** ✅ Completado.
 
 ---
