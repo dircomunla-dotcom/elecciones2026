@@ -2472,6 +2472,9 @@
       if (hash.startsWith('sec-')) {
         hash = hash.substring(4);
       }
+      if (['lista-2', 'lista-10', 'lista-7', 'lista-22'].includes(hash)) {
+        return hash;
+      }
       const sectionEl = document.getElementById('sec-' + hash);
       if (sectionEl) {
         return hash;
@@ -2481,6 +2484,12 @@
 
     // Cambiar de Sección / Pestaña
     function switchTab(targetId, updateHash = true) {
+      // Soporte para sub-pestaña directa de lista (ej: #lista-10, #lista-7, etc.)
+      if (['lista-2', 'lista-10', 'lista-7', 'lista-22'].includes(targetId)) {
+        switchListaTab(targetId);
+        targetId = 'listas';
+      }
+
       // Remover clase active en botones principales y de submenú
       const buttons = document.querySelectorAll('.unla-elecciones-scope .unla-menu-btn, .unla-elecciones-scope .unla-sub-btn');
       buttons.forEach(btn => {
@@ -2528,6 +2537,33 @@
       if (appEl) {
         appEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
+    }
+
+    // Conmutar Pestaña de Listas (Carga bajo demanda para prevenir error 429 Nginx)
+    function switchListaTab(listaId) {
+      const tabBtns = document.querySelectorAll('.unla-lista-tab-btn');
+      tabBtns.forEach(btn => {
+        if (btn.getAttribute('data-lista') === listaId) {
+          btn.classList.add('active');
+        } else {
+          btn.classList.remove('active');
+        }
+      });
+
+      const panes = document.querySelectorAll('.unla-lista-pane');
+      panes.forEach(pane => {
+        if (pane.id === 'pane-' + listaId) {
+          pane.classList.add('active');
+          pane.style.display = 'block';
+          const iframe = pane.querySelector('iframe');
+          if (iframe && !iframe.getAttribute('src') && iframe.getAttribute('data-src')) {
+            iframe.setAttribute('src', iframe.getAttribute('data-src'));
+          }
+        } else {
+          pane.classList.remove('active');
+          pane.style.display = 'none';
+        }
+      });
     }
 
     // Inicializar Event Listeners cuando el DOM esté listo
