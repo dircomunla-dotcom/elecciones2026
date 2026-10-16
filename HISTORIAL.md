@@ -246,6 +246,13 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   2. En `#sec-puestos-votacion`, dentro de la tarjeta «Puesto Electoral Virtual», se incorporó la misma aclaración con enlace a la casilla de soporte técnico del campus para quienes registren discordancias en su correo electrónico.
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #26 — Incorporación de Acta N° 8 de la Junta Electoral
+- **Fecha:** 16/10/2026
+- **Prompt:**
+  > *"Agregué el archivo `acta-8-JE.pdf`. Por favor léelo, extrae su fecha y redacta una línea con su resumen para agregarlo arriba de todo en la sección de Actas de la Junta Electoral de index.html con su botón de descarga"*
+- **Acción ejecutada:** Se realizó la lectura e interpretación de [`acta-8-JE.pdf`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/acta-8-JE.pdf), identificando su fecha oficial (16 de octubre de 2026) y contenido resolutivo (oficialización de las listas definitivas de candidatos/as para todos los claustros y orden de impresión de boletas electorales). Se insertó la tarjeta correspondiente arriba de todo en la sección «Actas de la Junta Electoral» en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) con su enlace y botón de descarga oficial.
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
