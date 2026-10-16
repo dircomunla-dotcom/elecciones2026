@@ -245,17 +245,18 @@
     .unla-elecciones-scope .unla-nav-container {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
       overflow: visible;
     }
 
     .unla-elecciones-scope .unla-menu-list {
       display: flex;
       list-style: none;
-      margin: 0;
+      margin: 0 auto;
       padding: 0;
       overflow: visible;
       flex-wrap: nowrap;
+      justify-content: center;
     }
 
     .unla-elecciones-scope .unla-menu-item {
@@ -292,9 +293,9 @@
 
     /* Pestañas Selectoras de Listas (Prevención de Error 429 Nginx) */
     .unla-elecciones-scope .unla-listas-tabs {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
       gap: 10px;
-      flex-wrap: wrap;
       margin-bottom: 25px;
       padding-bottom: 14px;
       border-bottom: 2px solid var(--unla-border);
@@ -303,16 +304,21 @@
     .unla-elecciones-scope .unla-lista-tab-btn {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
+      justify-content: center;
+      gap: 6px;
       background: var(--unla-bg-alt);
       color: var(--unla-dark);
       border: 1px solid var(--unla-border);
-      padding: 10px 18px;
+      padding: 9px 8px;
       border-radius: var(--unla-radius-md);
-      font-size: 14px;
+      font-size: 12px;
       font-weight: 600;
       cursor: pointer;
       transition: var(--unla-transition);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 100%;
     }
 
     .unla-elecciones-scope .unla-lista-tab-btn:hover {
