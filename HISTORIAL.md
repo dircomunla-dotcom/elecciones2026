@@ -265,6 +265,15 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   3. Se elaboró el diagnóstico técnico detallado sobre la causa del error `429 Too Many Requests` (límites de tasa en Nginx provocados por múltiples peticiones HTTP Range concurrentes de los iframes de PDF) y se propusieron las soluciones definitivas (sub-pestañas por lista o carga bajo demanda).
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #28 — Selector de Listas por Pestañas (Opción A) y Reducción de Fuente del Menú
+- **Fecha:** 16/10/2026
+- **Prompt:**
+  > *"hagamos la opción A. Y achica un poco las fuentes de los textos que conforman el menú, para que puedan entrar todos los menú a lo ancho en las pantallas de PC de escritorio"*
+- **Acción ejecutada:** En [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html):
+  1. En `#sec-listas`, se implementó la arquitectura de pestañas interactivas (`.unla-listas-tabs`) para conmutar entre Lista 2, Lista 10, Lista 7 y Lista 22 con un único visor activo en pantalla. Los documentos de las listas no activas se configuraron con `data-src` y se cargan bajo demanda únicamente al hacer clic en su pestaña, eliminando el tráfico concurrente y erradicando el error `429 Too Many Requests`.
+  2. En el menú superior de navegación (`.unla-menu-btn`), se ajustó el tamaño de fuente a `11.5px`, el espaciado horizontal a `7px` y se estableció `max-width: 1260px;` en el contenedor, permitiendo que los 9 ítems entren cómodamente en una sola fila en monitores y notebooks de escritorio sin desbordamientos ni saltos de línea. En dispositivos móviles se conservaron los estilos táctiles amplios (14px).
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
