@@ -275,6 +275,17 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   2. En el menú superior de navegación (`.unla-menu-btn`), se ajustó el tamaño de fuente a `11.5px`, el espaciado horizontal a `7px` y se estableció `max-width: 1260px;` en el contenedor, permitiendo que los 9 ítems entren cómodamente en una sola fila en monitores y notebooks de escritorio sin desbordamientos ni saltos de línea. En dispositivos móviles se conservaron los estilos táctiles amplios (14px).
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #29 — Centrado del Menú, Corrección de Duplicado en Listas y Visibilidad de Secciones
+- **Fecha:** 16/10/2026
+- **Prompt:**
+  > *"Quisiera que el menú quede centrado dentro del contenedor más allá del tamaño de la pantalla. En el menú Listas aparece este texto dos veces: Listas / Listas de candidatos y candidatas presentadas ante la Junta Electoral para las Elecciones Generales UNLa 2026. Donde se muestran las cuatro listas, reduce la fuente para que las botoneras para acceder a la vista de cada lista entren todos en una sola fila. No se están viendo los contenidos de los menú Actas de la Junta Electoral, Resoluciones de Interés y Preguntas Frecuentes"*
+- **Acción ejecutada:** En [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html):
+  1. Se centró horizontalmente el menú de navegación (`justify-content: center; margin: 0 auto;`) para cualquier tamaño de monitor de escritorio.
+  2. Se eliminó la etiqueta `<section id="sec-listas">` duplicada y su encabezado redundante.
+  3. Se organizaron las 4 botoneras de selección de listas en una grilla de 4 columnas (`repeat(4, 1fr)`) en escritorio y 2x2 en móviles, con tipografía adaptada (12px) y textos sintetizados para garantizar una sola fila perfecta en PC.
+  4. La corrección del anidamiento no cerrado en la sección de Listas restableció la jerarquía directa bajo `<main>` de las secciones `#sec-actas-junta`, `#sec-resoluciones-interes` y `#sec-faq`, recuperando su visibilidad inmediata.
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
