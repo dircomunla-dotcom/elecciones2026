@@ -39,6 +39,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **13/10/2026** | **Reemplazo de index.html por index2.html** | Eliminación de la versión anterior de `index.html` y renombramiento de `index2.html` a `index.html`, consolidando como archivo principal la versión con Consulta de Padrones habilitada y menú actualizado. |
 | **13/10/2026** | **Novedad Padrones Definitivos y Puesto/Mesa de Votación** | En `index.html`, actualización del instructivo de Consulta de Padrones indicando que la búsqueda arroja también el puesto y mesa de votación. Publicación de nueva noticia en Información General informando la disponibilidad de los padrones definitivos con botón directo de consulta. |
 | **16/10/2026** | **Incorporación Acta N° 8** | Adición oficial de `acta-8-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 16 de octubre de 2026, resumen de oficialización de listas y orden de impresión de boletas, y botón de descarga. |
+| **16/10/2026** | **Rehabilitación Menú Listas y Noticia de Oficialización** | Rehabilitación de la visibilidad del botón de menú «Listas» en `index.html` y publicación de nueva noticia principal en «Información General» anunciando la oficialización de listas (Acta N° 8) con botón de acceso a la sección. |
 
 ---
 
