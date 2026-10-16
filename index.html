@@ -1931,82 +1931,144 @@
             <p class="unla-section-subtitle">Listas de candidatos y candidatas presentadas ante la Junta Electoral para las Elecciones Generales UNLa 2026.</p>
           </div>
 
+      <!-- SECCIÓN: LISTAS -->
+      <section class="unla-section" id="sec-listas">
+        <div class="unla-container">
+          <div class="unla-section-header">
+            <h2 class="unla-section-title">Listas</h2>
+            <p class="unla-section-subtitle">Listas de candidatos y candidatas oficializadas ante la Junta Electoral para las Elecciones Generales UNLa 2026.</p>
+          </div>
+
           <div class="unla-card">
-            <!-- LISTA 2 -->
-            <div class="unla-lista-item">
-              <h3 style="margin:0 0 6px 0; font-size:22px; color:var(--unla-red); font-weight:700;">Lista 2</h3>
-              <h4 style="margin:0 0 10px 0; font-size:18px; color:var(--unla-dark); font-weight:600;">Granate</h4>
-              <p class="unla-aviso-movil">
-                <span>📱</span> <span>En dispositivos móviles se aconseja descargar el PDF para poder verlo.</span>
-              </p>
-              <div style="width:100%; height:650px; border-radius:var(--unla-radius-md); overflow:hidden; border:1px solid var(--unla-border); margin-bottom:15px; background:#f8f9fa;">
-                <iframe src="https://www.unla.edu.ar/elecciones2026/lista-2.pdf" loading="lazy" style="width:100%; height:100%; border:none;" title="Lista 2 - Granate"></iframe>
-              </div>
-              <div>
-                <a href="https://www.unla.edu.ar/elecciones2026/lista-2.pdf" target="_blank" rel="noopener"
-                  class="unla-btn-primary" style="padding:8px 16px; font-size:14px;">
-                  📥 Descargar Lista 2 (PDF)
-                </a>
+            <!-- PESTAÑAS SELECTORAS DE LISTAS (Opción A - Prevención Error 429) -->
+            <div class="unla-listas-tabs">
+              <button type="button" class="unla-lista-tab-btn active" data-lista="lista-2" onclick="switchListaTab('lista-2')">
+                <span class="unla-lista-tab-badge">Lista 2</span>
+                <span>Granate</span>
+              </button>
+              <button type="button" class="unla-lista-tab-btn" data-lista="lista-10" onclick="switchListaTab('lista-10')">
+                <span class="unla-lista-tab-badge">Lista 10</span>
+                <span>Roja - ¡Ya Basta!</span>
+              </button>
+              <button type="button" class="unla-lista-tab-btn" data-lista="lista-7" onclick="switchListaTab('lista-7')">
+                <span class="unla-lista-tab-badge">Lista 7</span>
+                <span>Multicolor - Frente de Izquierda</span>
+              </button>
+              <button type="button" class="unla-lista-tab-btn" data-lista="lista-22" onclick="switchListaTab('lista-22')">
+                <span class="unla-lista-tab-badge">Lista 22</span>
+                <span>Celeste y Blanca - Malvinas Argentinas</span>
+              </button>
+            </div>
+
+            <!-- PANEL: LISTA 2 (Activo por defecto) -->
+            <div class="unla-lista-pane active" id="pane-lista-2">
+              <div class="unla-lista-item">
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:12px;">
+                  <div>
+                    <h3 style="margin:0 0 4px 0; font-size:22px; color:var(--unla-red); font-weight:700;">Lista 2</h3>
+                    <h4 style="margin:0; font-size:18px; color:var(--unla-dark); font-weight:600;">Granate</h4>
+                  </div>
+                  <a href="https://www.unla.edu.ar/elecciones2026/lista-2.pdf" target="_blank" rel="noopener"
+                    class="unla-btn-primary" style="padding:8px 18px; font-size:14px;">
+                    📥 Descargar Lista 2 (PDF)
+                  </a>
+                </div>
+                <p class="unla-aviso-movil">
+                  <span>📱</span> <span>En dispositivos móviles se aconseja descargar el PDF para poder verlo.</span>
+                </p>
+                <div style="width:100%; height:650px; border-radius:var(--unla-radius-md); overflow:hidden; border:1px solid var(--unla-border); margin-bottom:15px; background:#f8f9fa;">
+                  <iframe src="https://www.unla.edu.ar/elecciones2026/lista-2.pdf" style="width:100%; height:100%; border:none;" title="Lista 2 - Granate"></iframe>
+                </div>
+                <div>
+                  <a href="https://www.unla.edu.ar/elecciones2026/lista-2.pdf" target="_blank" rel="noopener"
+                    class="unla-btn-primary" style="padding:8px 16px; font-size:14px;">
+                    📥 Descargar Lista 2 (PDF)
+                  </a>
+                </div>
               </div>
             </div>
 
-            <hr style="border:none; border-top:1px solid var(--unla-border); margin:35px 0;">
-
-            <!-- LISTA 10 -->
-            <div class="unla-lista-item">
-              <h3 style="margin:0 0 6px 0; font-size:22px; color:var(--unla-red); font-weight:700;">Lista 10</h3>
-              <h4 style="margin:0 0 10px 0; font-size:18px; color:var(--unla-dark); font-weight:600;">Roja - ¡Ya Basta! - La lista de les estudiantes</h4>
-              <p class="unla-aviso-movil">
-                <span>📱</span> <span>En dispositivos móviles se aconseja descargar el PDF para poder verlo.</span>
-              </p>
-              <div style="width:100%; height:650px; border-radius:var(--unla-radius-md); overflow:hidden; border:1px solid var(--unla-border); margin-bottom:15px; background:#f8f9fa;">
-                <iframe src="https://www.unla.edu.ar/elecciones2026/lista-10.pdf" loading="lazy" style="width:100%; height:100%; border:none;" title="Lista 10 - Roja - ¡Ya Basta! - La lista de les estudiantes"></iframe>
-              </div>
-              <div>
-                <a href="https://www.unla.edu.ar/elecciones2026/lista-10.pdf" target="_blank" rel="noopener"
-                  class="unla-btn-primary" style="padding:8px 16px; font-size:14px;">
-                  📥 Descargar Lista 10 (PDF)
-                </a>
-              </div>
-            </div>
-
-            <hr style="border:none; border-top:1px solid var(--unla-border); margin:35px 0;">
-
-            <!-- LISTA 7 -->
-            <div class="unla-lista-item">
-              <h3 style="margin:0 0 6px 0; font-size:22px; color:var(--unla-red); font-weight:700;">Lista 7</h3>
-              <h4 style="margin:0 0 10px 0; font-size:18px; color:var(--unla-dark); font-weight:600;">Multicolor - Frente de Estudiantes de Izquierda</h4>
-              <p class="unla-aviso-movil">
-                <span>📱</span> <span>En dispositivos móviles se aconseja descargar el PDF para poder verlo.</span>
-              </p>
-              <div style="width:100%; height:650px; border-radius:var(--unla-radius-md); overflow:hidden; border:1px solid var(--unla-border); margin-bottom:15px; background:#f8f9fa;">
-                <iframe src="https://www.unla.edu.ar/elecciones2026/lista-7.pdf" loading="lazy" style="width:100%; height:100%; border:none;" title="Lista 7 - Multicolor - Frente de Estudiantes de Izquierda"></iframe>
-              </div>
-              <div>
-                <a href="https://www.unla.edu.ar/elecciones2026/lista-7.pdf" target="_blank" rel="noopener"
-                  class="unla-btn-primary" style="padding:8px 16px; font-size:14px;">
-                  📥 Descargar Lista 7 (PDF)
-                </a>
+            <!-- PANEL: LISTA 10 (Carga diferida al seleccionar pestaña) -->
+            <div class="unla-lista-pane" id="pane-lista-10" style="display: none;">
+              <div class="unla-lista-item">
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:12px;">
+                  <div>
+                    <h3 style="margin:0 0 4px 0; font-size:22px; color:var(--unla-red); font-weight:700;">Lista 10</h3>
+                    <h4 style="margin:0; font-size:18px; color:var(--unla-dark); font-weight:600;">Roja - ¡Ya Basta! - La lista de les estudiantes</h4>
+                  </div>
+                  <a href="https://www.unla.edu.ar/elecciones2026/lista-10.pdf" target="_blank" rel="noopener"
+                    class="unla-btn-primary" style="padding:8px 18px; font-size:14px;">
+                    📥 Descargar Lista 10 (PDF)
+                  </a>
+                </div>
+                <p class="unla-aviso-movil">
+                  <span>📱</span> <span>En dispositivos móviles se aconseja descargar el PDF para poder verlo.</span>
+                </p>
+                <div style="width:100%; height:650px; border-radius:var(--unla-radius-md); overflow:hidden; border:1px solid var(--unla-border); margin-bottom:15px; background:#f8f9fa;">
+                  <iframe data-src="https://www.unla.edu.ar/elecciones2026/lista-10.pdf" style="width:100%; height:100%; border:none;" title="Lista 10 - Roja - ¡Ya Basta! - La lista de les estudiantes"></iframe>
+                </div>
+                <div>
+                  <a href="https://www.unla.edu.ar/elecciones2026/lista-10.pdf" target="_blank" rel="noopener"
+                    class="unla-btn-primary" style="padding:8px 16px; font-size:14px;">
+                    📥 Descargar Lista 10 (PDF)
+                  </a>
+                </div>
               </div>
             </div>
 
-            <hr style="border:none; border-top:1px solid var(--unla-border); margin:35px 0;">
-
-            <!-- LISTA 22 -->
-            <div class="unla-lista-item">
-              <h3 style="margin:0 0 6px 0; font-size:22px; color:var(--unla-red); font-weight:700;">Lista 22</h3>
-              <h4 style="margin:0 0 10px 0; font-size:18px; color:var(--unla-dark); font-weight:600;">Celeste y Blanca - Malvinas Argentinas</h4>
-              <p class="unla-aviso-movil">
-                <span>📱</span> <span>En dispositivos móviles se aconseja descargar el PDF para poder verlo.</span>
-              </p>
-              <div style="width:100%; height:650px; border-radius:var(--unla-radius-md); overflow:hidden; border:1px solid var(--unla-border); margin-bottom:15px; background:#f8f9fa;">
-                <iframe src="https://www.unla.edu.ar/elecciones2026/lista-22.pdf" loading="lazy" style="width:100%; height:100%; border:none;" title="Lista 22 - Celeste y Blanca - Malvinas Argentinas"></iframe>
+            <!-- PANEL: LISTA 7 (Carga diferida al seleccionar pestaña) -->
+            <div class="unla-lista-pane" id="pane-lista-7" style="display: none;">
+              <div class="unla-lista-item">
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:12px;">
+                  <div>
+                    <h3 style="margin:0 0 4px 0; font-size:22px; color:var(--unla-red); font-weight:700;">Lista 7</h3>
+                    <h4 style="margin:0; font-size:18px; color:var(--unla-dark); font-weight:600;">Multicolor - Frente de Estudiantes de Izquierda</h4>
+                  </div>
+                  <a href="https://www.unla.edu.ar/elecciones2026/lista-7.pdf" target="_blank" rel="noopener"
+                    class="unla-btn-primary" style="padding:8px 18px; font-size:14px;">
+                    📥 Descargar Lista 7 (PDF)
+                  </a>
+                </div>
+                <p class="unla-aviso-movil">
+                  <span>📱</span> <span>En dispositivos móviles se aconseja descargar el PDF para poder verlo.</span>
+                </p>
+                <div style="width:100%; height:650px; border-radius:var(--unla-radius-md); overflow:hidden; border:1px solid var(--unla-border); margin-bottom:15px; background:#f8f9fa;">
+                  <iframe data-src="https://www.unla.edu.ar/elecciones2026/lista-7.pdf" style="width:100%; height:100%; border:none;" title="Lista 7 - Multicolor - Frente de Estudiantes de Izquierda"></iframe>
+                </div>
+                <div>
+                  <a href="https://www.unla.edu.ar/elecciones2026/lista-7.pdf" target="_blank" rel="noopener"
+                    class="unla-btn-primary" style="padding:8px 16px; font-size:14px;">
+                    📥 Descargar Lista 7 (PDF)
+                  </a>
+                </div>
               </div>
-              <div>
-                <a href="https://www.unla.edu.ar/elecciones2026/lista-22.pdf" target="_blank" rel="noopener"
-                  class="unla-btn-primary" style="padding:8px 16px; font-size:14px;">
-                  📥 Descargar Lista 22 (PDF)
-                </a>
+            </div>
+
+            <!-- PANEL: LISTA 22 (Carga diferida al seleccionar pestaña) -->
+            <div class="unla-lista-pane" id="pane-lista-22" style="display: none;">
+              <div class="unla-lista-item">
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:12px;">
+                  <div>
+                    <h3 style="margin:0 0 4px 0; font-size:22px; color:var(--unla-red); font-weight:700;">Lista 22</h3>
+                    <h4 style="margin:0; font-size:18px; color:var(--unla-dark); font-weight:600;">Celeste y Blanca - Malvinas Argentinas</h4>
+                  </div>
+                  <a href="https://www.unla.edu.ar/elecciones2026/lista-22.pdf" target="_blank" rel="noopener"
+                    class="unla-btn-primary" style="padding:8px 18px; font-size:14px;">
+                    📥 Descargar Lista 22 (PDF)
+                  </a>
+                </div>
+                <p class="unla-aviso-movil">
+                  <span>📱</span> <span>En dispositivos móviles se aconseja descargar el PDF para poder verlo.</span>
+                </p>
+                <div style="width:100%; height:650px; border-radius:var(--unla-radius-md); overflow:hidden; border:1px solid var(--unla-border); margin-bottom:15px; background:#f8f9fa;">
+                  <iframe data-src="https://www.unla.edu.ar/elecciones2026/lista-22.pdf" style="width:100%; height:100%; border:none;" title="Lista 22 - Celeste y Blanca - Malvinas Argentinas"></iframe>
+                </div>
+                <div>
+                  <a href="https://www.unla.edu.ar/elecciones2026/lista-22.pdf" target="_blank" rel="noopener"
+                    class="unla-btn-primary" style="padding:8px 16px; font-size:14px;">
+                    📥 Descargar Lista 22 (PDF)
+                  </a>
+                </div>
               </div>
             </div>
           </div>
