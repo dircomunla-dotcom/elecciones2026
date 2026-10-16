@@ -9,7 +9,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 - **Institución:** Universidad Nacional de Lanús (UNLa).
 - **Archivos Principales:**
   - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html): Archivo único con estructura HTML, estilos CSS integrados, scripts JS interactivos, componentes y SEO estructurado.
-  - Documentos Oficiales: `acta-1-JE.pdf`, `acta-2-JE.pdf`, `acta-3-JE.pdf`, `acta-4-JE.pdf`, `acta-5-JE.pdf`, `acta-6-JE.pdf`, `lista-2.pdf`, `lista-7.pdf`, `lista-10.pdf`, `lista-22.pdf`.
+  - Documentos Oficiales: `acta-1-JE.pdf`, `acta-2-JE.pdf`, `acta-3-JE.pdf`, `acta-4-JE.pdf`, `acta-5-JE.pdf`, `acta-6-JE.pdf`, `acta-7-JE.pdf`, `acta-8-JE.pdf`, `lista-2.pdf`, `lista-7.pdf`, `lista-10.pdf`, `lista-22.pdf`.
 
 ---
 
@@ -38,6 +38,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **10/10/2026** | **Cuadro destacado de electores habilitados (index2.html)** | Inclusión de bloque destacado en `index2.html` recordando los criterios estatutarios y reglamentarios de quiénes están habilitados a votar por cada claustro y departamento. |
 | **13/10/2026** | **Reemplazo de index.html por index2.html** | Eliminación de la versión anterior de `index.html` y renombramiento de `index2.html` a `index.html`, consolidando como archivo principal la versión con Consulta de Padrones habilitada y menú actualizado. |
 | **13/10/2026** | **Novedad Padrones Definitivos y Puesto/Mesa de Votación** | En `index.html`, actualización del instructivo de Consulta de Padrones indicando que la búsqueda arroja también el puesto y mesa de votación. Publicación de nueva noticia en Información General informando la disponibilidad de los padrones definitivos con botón directo de consulta. |
+| **16/10/2026** | **Incorporación Acta N° 8** | Adición oficial de `acta-8-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 16 de octubre de 2026, resumen de oficialización de listas y orden de impresión de boletas, y botón de descarga. |
 
 ---
 
