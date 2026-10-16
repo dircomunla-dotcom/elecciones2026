@@ -41,6 +41,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **16/10/2026** | **Incorporación Acta N° 8** | Adición oficial de `acta-8-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 16 de octubre de 2026, resumen de oficialización de listas y orden de impresión de boletas, y botón de descarga. |
 | **16/10/2026** | **Rehabilitación Menú Listas y Noticia de Oficialización** | Rehabilitación de la visibilidad del botón de menú «Listas» en `index.html` y publicación de nueva noticia principal en «Información General» anunciando la oficialización de listas (Acta N° 8) con botón de acceso a la sección. |
 | **16/10/2026** | **Pestañas de Listas y Ajuste de Fuentes del Menú** | Implementación de selector interactivo de sub-pestañas para las 4 listas con carga bajo demanda (prevención definitiva del error Nginx 429 Too Many Requests) y reducción tipográfica/espaciado de los ítems de navegación para encajar horizontalmente en pantallas de escritorio sin saltos de línea. |
+| **16/10/2026** | **Centrado de Menú, Unificación de Fila en Listas y Corrección de Secciones** | Centrado horizontal del menú de navegación en escritorio, eliminación de duplicado en encabezado de Listas, alineación de las 4 botoneras en una sola fila (grid de 4 columnas en PC / 2x2 en móvil) y resolución del anidamiento de secciones restaurando la visibilidad de Actas, Resoluciones y FAQ. |
 
 ---
 
