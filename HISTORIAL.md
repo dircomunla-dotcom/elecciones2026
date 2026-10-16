@@ -254,6 +254,16 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Acción ejecutada:** Se realizó la lectura e interpretación de [`acta-8-JE.pdf`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/acta-8-JE.pdf), identificando su fecha oficial (16 de octubre de 2026) y contenido resolutivo (oficialización de las listas definitivas de candidatos/as para todos los claustros y orden de impresión de boletas electorales). Se insertó la tarjeta correspondiente arriba de todo en la sección «Actas de la Junta Electoral» en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) con su enlace y botón de descarga oficial.
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #27 — Rehabilitación de Listas, Nueva Noticia y Análisis de Error 429
+- **Fecha:** 16/10/2026
+- **Prompt:**
+  > *"Vamos a habilitar nuevamente el menú Listas para que sea visible otra vez. Genera un noticia para poner primera en el espacio de Noticias de Información General, que tenga botón con link al menú Listas. De qué manera podemos mejorar que al llegar a la cuarta lista del menú Listas no aparezca este mensaje en el embebido 429 Too Many Requests nginx/1.28.0 ?"*
+- **Acción ejecutada:** En [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html):
+  1. Se reactivó la visibilidad del botón «Listas» en la barra de navegación quitando el estilo de ocultamiento.
+  2. Se redactó y publicó en primer lugar de «Noticias y Novedades Electorales» la comunicación sobre la oficialización de las listas de candidatos/as (Acta N° 8), con fecha 16 de octubre de 2026 y botón interactivo `📋 Ver Listas Oficializadas` hacia `#listas`.
+  3. Se elaboró el diagnóstico técnico detallado sobre la causa del error `429 Too Many Requests` (límites de tasa en Nginx provocados por múltiples peticiones HTTP Range concurrentes de los iframes de PDF) y se propusieron las soluciones definitivas (sub-pestañas por lista o carga bajo demanda).
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
