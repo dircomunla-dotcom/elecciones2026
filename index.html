@@ -1855,44 +1855,462 @@
       <section class="unla-section" id="sec-puestos-votacion">
         <div class="unla-container">
           <div class="unla-section-header">
-            <h2 class="unla-section-title">Puestos de Votación</h2>
-            <p class="unla-section-subtitle">Conocé la ubicación física de las mesas presenciales y el acceso a la
-              plataforma virtual de votación.</p>
+            <h2 class="unla-section-title">Puestos de Votación y Aulas</h2>
+            <p class="unla-section-subtitle">Distribución oficial de los 20 puestos de votación, aulas asignadas y modalidades conforme a lo resuelto por la Junta Electoral (Acta N° 9).</p>
           </div>
 
-          <div class="unla-locations-grid">
+          <!-- BANNER DE RESUMEN Y HORARIOS -->
+          <div class="unla-card" style="margin-bottom: 24px; border-left: 5px solid var(--unla-red);">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+              <div>
+                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap;">
+                  <span style="display:inline-block; background:var(--unla-red-light); color:var(--unla-red); font-size:12px; font-weight:700; padding:3px 8px; border-radius:4px;">Junta Electoral</span>
+                  <span style="display:inline-block; background:var(--unla-bg-alt); color:var(--unla-dark-gray); font-size:12px; font-weight:600; padding:3px 8px; border-radius:4px; border:1px solid var(--unla-border);">📅 Elecciones 27, 28 y 29 de octubre de 2026</span>
+                </div>
+                <h3 style="margin: 0 0 6px 0; font-size: 20px; color: var(--unla-dark);">Sede y Horarios de Comicios</h3>
+                <p style="margin: 0; font-size: 14.5px; color: var(--unla-dark-gray); line-height: 1.5;">
+                  <strong>Sede Presencial:</strong> Edificio José Hernández (Predio 29 de Septiembre 3901, Remedios de Escalada).<br>
+                  <strong>Turnos Diarios de Mesa:</strong> 1° Turno de <strong>10:00 a 14:30 hs</strong> | 2° Turno de <strong>14:30 a 19:00 hs</strong>.<br>
+                  <span style="font-size:13.5px; color:var(--unla-mid-gray);"><em>Nota: El Claustro Nodocente vota de manera presencial únicamente el <strong>miércoles 28 de octubre</strong> (10:00 a 19:00 hs).</em></span>
+                </p>
+              </div>
+              <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                <a href="#padrones" onclick="switchTab('padrones')" class="unla-btn-primary" style="padding: 10px 18px; font-size: 14px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+                  🔍 Consultar mi Padrón y Puesto
+                </a>
+                <a href="https://www.unla.edu.ar/elecciones2026/acta-9-JE.pdf" target="_blank" rel="noopener" class="unla-btn-secondary" style="padding: 10px 18px; font-size: 14px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+                  📄 Descargar Acta N° 9 (PDF)
+                </a>
+              </div>
+            </div>
+          </div>
 
-            <div class="unla-location-card">
-              <span class="unla-location-badge">Sede Presencial</span>
-              <h3 style="margin:0 0 4px 0; font-size:20px; color:var(--unla-dark);">Edificio José Hernández (Predio 29
-                de Septiembre) y Polo Tecnológico (Predio Yrigoyen)</h3>
-              <p style="font-size:14px; font-weight:600; color:var(--unla-red); margin:0 0 12px 0;">Aulas a definir</p>
-              <div style="background:var(--unla-bg-alt); padding:14px; border-radius:8px; font-size:14px;">
-                <strong>Fechas y Horarios:</strong><br>
-                • Docentes y Estudiantes de Grado: 27, 28 y 29 de Octubre (10:00 a 19:00 hs).<br>
-                • Nodocentes: Día 28 de Octubre (10:00 a 19:00 hs).
+          <!-- GRID DE TARJETAS POR AULA / ESPACIO -->
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; margin-bottom: 30px;">
+
+            <!-- AULA 21: DDPyT -->
+            <div class="unla-card" style="display: flex; flex-direction: column; justify-content: space-between; border-top: 4px solid var(--unla-red); margin-bottom: 0;">
+              <div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                  <span style="background: var(--unla-dark); color: #fff; font-size: 13px; font-weight: 700; padding: 4px 10px; border-radius: 4px;">🏢 AULA 21</span>
+                  <span style="background: var(--unla-red-light); color: var(--unla-red); font-size: 12px; font-weight: 700; padding: 3px 8px; border-radius: 4px;">DDPyT</span>
+                </div>
+                <h4 style="margin: 0 0 6px 0; font-size: 17px; color: var(--unla-dark);">Dpto. Desarrollo Productivo y Tecnológico</h4>
+                <p style="font-size: 13px; color: var(--unla-mid-gray); margin-bottom: 14px;">Claustro Estudiantes • Puestos 1 al 6 • 27, 28 y 29 de octubre</p>
+                <div style="display: flex; flex-direction: column; gap: 10px;">
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 1:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Licenciatura y Ciclo en Economía Empresarial</div>
+                  </div>
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 2:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Licenciatura y Ciclo en Planificación Logística</div>
+                  </div>
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 3:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Licenciatura en Sistemas (Apellidos <strong>A - K</strong>)</div>
+                  </div>
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 4:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Licenciatura en Sistemas (Apellidos <strong>L - Z</strong>)</div>
+                  </div>
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 5:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Alimentos / GAU / Ferroviaria / Economía Política</div>
+                  </div>
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 6:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Licenciatura y Ciclo en Turismo</div>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="unla-location-card">
-              <span class="unla-location-badge" style="background:var(--unla-red);">Puesto Electoral Virtual</span>
-              <h3 style="margin:0 0 10px 0; font-size:20px; color:var(--unla-dark);">Portal de Votación Remota</h3>
-              <p style="font-size:14px; color:var(--unla-dark-gray); margin-bottom:15px;">
-                💻 Sistema de Votación en Línea con autenticación segura para electores a distancia.
+            <!-- AULA 20: DHyA -->
+            <div class="unla-card" style="display: flex; flex-direction: column; justify-content: space-between; border-top: 4px solid var(--unla-red); margin-bottom: 0;">
+              <div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                  <span style="background: var(--unla-dark); color: #fff; font-size: 13px; font-weight: 700; padding: 4px 10px; border-radius: 4px;">🏢 AULA 20</span>
+                  <span style="background: var(--unla-red-light); color: var(--unla-red); font-size: 12px; font-weight: 700; padding: 3px 8px; border-radius: 4px;">DHyA</span>
+                </div>
+                <h4 style="margin: 0 0 6px 0; font-size: 17px; color: var(--unla-dark);">Dpto. Humanidades y Artes</h4>
+                <p style="font-size: 13px; color: var(--unla-mid-gray); margin-bottom: 14px;">Claustro Estudiantes • Puestos 7 al 10 • 27, 28 y 29 de octubre</p>
+                <div style="display: flex; flex-direction: column; gap: 10px;">
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 7:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Licenciatura en Audiovisión</div>
+                  </div>
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 8:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Licenciatura en Diseño Industrial</div>
+                  </div>
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 9:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Licenciatura en Diseño y Comunicación Visual</div>
+                  </div>
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 10:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Licenciatura en Música y Ciclo de Traductorado</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- AULA 19: DPyPP -->
+            <div class="unla-card" style="display: flex; flex-direction: column; justify-content: space-between; border-top: 4px solid var(--unla-red); margin-bottom: 0;">
+              <div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                  <span style="background: var(--unla-dark); color: #fff; font-size: 13px; font-weight: 700; padding: 4px 10px; border-radius: 4px;">🏢 AULA 19</span>
+                  <span style="background: var(--unla-red-light); color: var(--unla-red); font-size: 12px; font-weight: 700; padding: 3px 8px; border-radius: 4px;">DPyPP</span>
+                </div>
+                <h4 style="margin: 0 0 6px 0; font-size: 17px; color: var(--unla-dark);">Dpto. Planificación y Políticas Públicas</h4>
+                <p style="font-size: 13px; color: var(--unla-mid-gray); margin-bottom: 14px;">Claustro Estudiantes • Puestos 11 al 14 • 27, 28 y 29 de octubre</p>
+                <div style="display: flex; flex-direction: column; gap: 10px;">
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 11:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Licenciatura y Ciclo en Ciencias Políticas y Gobierno</div>
+                  </div>
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 12:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Licenciatura y Ciclo en Gestión Educativa / Educación</div>
+                  </div>
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 13:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Licenciatura en Relaciones Internacionales</div>
+                  </div>
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 14:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Seguridad Ciudadana / Justicia y Derechos Humanos</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- AULA 18: DESACO -->
+            <div class="unla-card" style="display: flex; flex-direction: column; justify-content: space-between; border-top: 4px solid var(--unla-red); margin-bottom: 0;">
+              <div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                  <span style="background: var(--unla-dark); color: #fff; font-size: 13px; font-weight: 700; padding: 4px 10px; border-radius: 4px;">🏢 AULA 18</span>
+                  <span style="background: var(--unla-red-light); color: var(--unla-red); font-size: 12px; font-weight: 700; padding: 3px 8px; border-radius: 4px;">DESACO</span>
+                </div>
+                <h4 style="margin: 0 0 6px 0; font-size: 17px; color: var(--unla-dark);">Dpto. Salud Comunitaria</h4>
+                <p style="font-size: 13px; color: var(--unla-mid-gray); margin-bottom: 14px;">Claustro Estudiantes • Puestos 15 al 18 • 27, 28 y 29 de octubre</p>
+                <div style="display: flex; flex-direction: column; gap: 10px;">
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 15:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Licenciatura y Ciclo en Enfermería</div>
+                  </div>
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 16:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Licenciatura en Nutrición (Apellidos <strong>A - K</strong>)</div>
+                  </div>
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 17:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Licenciatura en Nutrición (Apellidos <strong>L - Z</strong>)</div>
+                  </div>
+                  <div style="background: var(--unla-bg-alt); padding: 10px 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 18:</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray);">Trabajo Social / Ciclo en Educación Física</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- AULA 5: DOCENTES Y NODOCENTES -->
+            <div class="unla-card" style="display: flex; flex-direction: column; justify-content: space-between; border-top: 4px solid var(--unla-red); margin-bottom: 0;">
+              <div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                  <span style="background: var(--unla-dark); color: #fff; font-size: 13px; font-weight: 700; padding: 4px 10px; border-radius: 4px;">🏢 AULA 5</span>
+                  <span style="background: var(--unla-red-light); color: var(--unla-red); font-size: 12px; font-weight: 700; padding: 3px 8px; border-radius: 4px;">Docente / Nodocente</span>
+                </div>
+                <h4 style="margin: 0 0 6px 0; font-size: 17px; color: var(--unla-dark);">Docentes y Nodocentes</h4>
+                <p style="font-size: 13px; color: var(--unla-mid-gray); margin-bottom: 14px;">Puestos 19 y 20 • Ambos Departamentos</p>
+                <div style="display: flex; flex-direction: column; gap: 10px;">
+                  <div style="background: var(--unla-bg-alt); padding: 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                      <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 19 — Docentes:</strong>
+                      <span style="font-size: 11.5px; color: var(--unla-red); font-weight: 700;">27, 28 y 29/10</span>
+                    </div>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray); margin-top: 2px;">Docentes ordinarios de ambos departamentos (10:00 a 19:00 hs).</div>
+                  </div>
+                  <div style="background: var(--unla-bg-alt); padding: 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                      <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 20 — Nodocentes:</strong>
+                      <span style="font-size: 11.5px; background: #ae2a3f; color: #fff; padding: 1px 6px; border-radius: 3px; font-weight: 700;">Único día: 28/10</span>
+                    </div>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray); margin-top: 2px;">Nodocentes de ambos departamentos (10:00 a 19:00 hs).</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- MODALIDAD VIRTUAL -->
+            <div class="unla-card" style="display: flex; flex-direction: column; justify-content: space-between; border-top: 4px solid var(--unla-red); margin-bottom: 0;">
+              <div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                  <span style="background: var(--unla-red); color: #fff; font-size: 13px; font-weight: 700; padding: 4px 10px; border-radius: 4px;">💻 MODALIDAD VIRTUAL</span>
+                  <span style="background: var(--unla-red-light); color: var(--unla-red); font-size: 12px; font-weight: 700; padding: 3px 8px; border-radius: 4px;">En Línea</span>
+                </div>
+                <h4 style="margin: 0 0 6px 0; font-size: 17px; color: var(--unla-dark);">Graduados/as y Distancia</h4>
+                <p style="font-size: 13px; color: var(--unla-mid-gray); margin-bottom: 14px;">Puesto 20 (Todas las Mesas) • 27, 28 y 29 de octubre</p>
+                <div style="display: flex; flex-direction: column; gap: 10px;">
+                  <div style="background: var(--unla-bg-alt); padding: 12px; border-radius: 6px; border-left: 3px solid var(--unla-red);">
+                    <strong style="color: var(--unla-dark); font-size: 13.5px;">Puesto 20 (Virtual):</strong>
+                    <div style="font-size: 13px; color: var(--unla-dark-gray); margin-top: 2px;">Graduados/as empadronados/as, Estudiantes de Posgrado y Estudiantes de Carreras a Distancia.</div>
+                  </div>
+                  <div style="background: var(--unla-red-light); padding: 10px 12px; border-radius: 6px; font-size: 12.5px; line-height: 1.45; color: var(--unla-dark);">
+                    <strong>Aclaración Campus Virtual:</strong> Si tu correo registrado no coincide con el actual, comunicate con <a href="mailto:administracion_campus@unla.edu.ar" style="color:var(--unla-red); font-weight:700; text-decoration:underline;">administracion_campus@unla.edu.ar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- TABLA COMPLETA DE PUESTOS Y AULAS -->
+          <div class="unla-card" style="margin-bottom: 24px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 16px;">
+              <div>
+                <h3 style="margin: 0; font-size: 18px; color: var(--unla-dark);">📋 Tabla General de Puestos de Votación</h3>
+                <p style="margin: 4px 0 0 0; font-size: 13.5px; color: var(--unla-mid-gray);">Detalle aula por aula para los 20 puestos habilitados.</p>
+              </div>
+            </div>
+
+            <div style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
+              <table style="width: 100%; border-collapse: collapse; font-size: 13.5px; min-width: 650px;">
+                <thead>
+                  <tr style="background: var(--unla-dark); color: #fff; text-align: left;">
+                    <th style="padding: 10px 12px; border-radius: 4px 0 0 0; width: 65px; text-align: center;">Puesto</th>
+                    <th style="padding: 10px 12px; width: 95px;">Aula</th>
+                    <th style="padding: 10px 12px; width: 110px;">Claustro</th>
+                    <th style="padding: 10px 12px;">Carrera / Ámbito Asignado</th>
+                    <th style="padding: 10px 12px; width: 130px;">Días de Votación</th>
+                    <th style="padding: 10px 12px; border-radius: 0 4px 0 0; width: 100px;">Horario</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: #ffffff;">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">1</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 21</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Licenciatura y Ciclo en Economía Empresarial (DDPyT)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: var(--unla-bg-alt);">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">2</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 21</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Licenciatura y Ciclo en Planificación Logística (DDPyT)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: #ffffff;">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">3</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 21</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Licenciatura en Sistemas (Apellidos <strong>A - K</strong>) (DDPyT)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: var(--unla-bg-alt);">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">4</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 21</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Licenciatura en Sistemas (Apellidos <strong>L - Z</strong>) (DDPyT)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: #ffffff;">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">5</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 21</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Alimentos / GAU / Tec. Ferroviaria / Economía Política (DDPyT)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: var(--unla-bg-alt);">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">6</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 21</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Licenciatura y Ciclo en Turismo (DDPyT)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: #ffffff;">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">7</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 20</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Licenciatura en Audiovisión (DHyA)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: var(--unla-bg-alt);">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">8</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 20</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Licenciatura en Diseño Industrial (DHyA)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: #ffffff;">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">9</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 20</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Licenciatura en Diseño y Comunicación Visual (DHyA)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: var(--unla-bg-alt);">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">10</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 20</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Licenciatura en Música y Ciclo en Traductorado (DHyA)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: #ffffff;">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">11</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 19</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Licenciatura y Ciclo en Ciencia Política y Gobierno (DPyPP)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: var(--unla-bg-alt);">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">12</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 19</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Licenciatura y Ciclo en Gestión Educativa / Educación (DPyPP)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: #ffffff;">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">13</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 19</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Licenciatura en Relaciones Internacionales (DPyPP)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: var(--unla-bg-alt);">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">14</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 19</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Seguridad Ciudadana / Justicia y Derechos Humanos (DPyPP)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: #ffffff;">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">15</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 18</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Licenciatura y Ciclo en Enfermería (DESACO)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: var(--unla-bg-alt);">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">16</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 18</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Licenciatura en Nutrición (Apellidos <strong>A - K</strong>) (DESACO)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: #ffffff;">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">17</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 18</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Licenciatura en Nutrición (Apellidos <strong>L - Z</strong>) (DESACO)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: var(--unla-bg-alt);">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">18</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 18</td>
+                    <td style="padding: 10px 12px;">Estudiantes</td>
+                    <td style="padding: 10px 12px;">Trabajo Social / Ciclo en Educación Física (DESACO)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: #ffffff;">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">19</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 5</td>
+                    <td style="padding: 10px 12px;">Docente</td>
+                    <td style="padding: 10px 12px;">Docentes ordinarios de ambos departamentos (DHyA y DDPyT)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: #fff5f5;">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center;">20</td>
+                    <td style="padding: 10px 12px; font-weight: 600;">Aula 5</td>
+                    <td style="padding: 10px 12px; font-weight: 600; color: var(--unla-red);">Nodocente</td>
+                    <td style="padding: 10px 12px;">Nodocentes de ambos departamentos (DHyA y DDPyT)</td>
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red);">Miércoles 28/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px;">10 a 19 hs</td>
+                  </tr>
+                  <tr style="background: #fdfdfe;">
+                    <td style="padding: 10px 12px; font-weight: 700; color: var(--unla-red); text-align: center; border-radius: 0 0 0 4px;">20</td>
+                    <td style="padding: 10px 12px; font-weight: 600; color: var(--unla-red);">Virtual</td>
+                    <td style="padding: 10px 12px;">Graduados / Distancia</td>
+                    <td style="padding: 10px 12px;">Graduados/as empadronados/as, Posgrado y Carreras a Distancia (Todas las Mesas)</td>
+                    <td style="padding: 10px 12px;">27, 28 y 29/10</td>
+                    <td style="padding: 10px 12px; font-size: 12.5px; border-radius: 0 0 4px 0;">10 a 19 hs</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- DESPLEGABLE / NÓMINA DE AUTORIDADES DESIGNADAS (ACTA N° 9) -->
+          <details class="unla-card" style="margin-bottom: 0; padding: 0; overflow: hidden; border: 1px solid var(--unla-border);">
+            <summary style="padding: 16px 20px; font-size: 16px; font-weight: 700; color: var(--unla-dark); cursor: pointer; background: var(--unla-bg-alt); display: flex; justify-content: space-between; align-items: center; user-select: none;">
+              <span style="display: flex; align-items: center; gap: 8px;">
+                <span>👥</span> Nómina de Autoridades de Mesa Designadas por Turno (Acta N° 9)
+              </span>
+              <span style="font-size: 13px; color: var(--unla-red); font-weight: 600;">Ver detalle de autoridades ▾</span>
+            </summary>
+            <div style="padding: 20px; overflow-x: auto; -webkit-overflow-scrolling: touch;">
+              <p style="font-size: 13.5px; color: var(--unla-dark-gray); margin: 0 0 14px 0;">
+                Nómina oficial de presidentes/as y vicepresidentes/as de mesa designados por la Junta Electoral en los turnos de 10:00 a 14:30 hs y de 14:30 a 19:00 hs:
               </p>
-              <div style="background:var(--unla-bg-alt); padding:14px; border-radius:8px; font-size:14px;">
-                <strong>Destinado a:</strong><br>
-                • Claustro de Graduados/as.<br>
-                • Estudiantes de Posgrado.<br>
-                • Estudiantes de carreras a distancia.<br>
-                <strong>Fecha:</strong> Jueves 29 de Octubre (10:00 a 19:00 hs).
-              </div>
-              <div style="margin-top: 14px; background: var(--unla-red-light); border-left: 3px solid var(--unla-red); padding: 12px 14px; border-radius: 6px; font-size: 13.5px; line-height: 1.5; color: var(--unla-dark);">
-                <strong>Aclaración importante:</strong> Si el mail de Campus Virtual que figura en tu registro no coincide con el que usás actualmente, comunicate con <a href="mailto:administracion_campus@unla.edu.ar" style="color: var(--unla-red); font-weight: 700; text-decoration: underline;">administracion_campus@unla.edu.ar</a>
-              </div>
+              <table style="width: 100%; border-collapse: collapse; font-size: 13px; min-width: 600px;">
+                <thead>
+                  <tr style="background: var(--unla-bg-alt); border-bottom: 2px solid var(--unla-border); text-align: left;">
+                    <th style="padding: 8px 10px; width: 60px; text-align: center;">Puesto</th>
+                    <th style="padding: 8px 10px; width: 80px;">Aula</th>
+                    <th style="padding: 8px 10px;">Carrera / Ámbito</th>
+                    <th style="padding: 8px 10px; width: 220px;">Turno 10:00 a 14:30 hs</th>
+                    <th style="padding: 8px 10px; width: 220px;">Turno 14:30 a 19:00 hs</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">1</td><td style="padding: 8px 10px;">Aula 21</td><td style="padding: 8px 10px;">Lic. y Ciclo Economía Empresarial</td><td style="padding: 8px 10px;"><strong>P:</strong> Mariana Peirano<br><strong>VP:</strong> Natalia Hermida</td><td style="padding: 8px 10px;"><strong>P:</strong> Paula Vidal<br><strong>VP:</strong> Federico Cestares</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">2</td><td style="padding: 8px 10px;">Aula 21</td><td style="padding: 8px 10px;">Lic. y Ciclo Planificación Logística</td><td style="padding: 8px 10px;"><strong>P:</strong> Gisela Prieto<br><strong>VP:</strong> Camila Sanz</td><td style="padding: 8px 10px;"><strong>P:</strong> Cintia Paz<br><strong>VP:</strong> Gastón Calabozo</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">3</td><td style="padding: 8px 10px;">Aula 21</td><td style="padding: 8px 10px;">Lic. Sistemas A - K</td><td style="padding: 8px 10px;"><strong>P:</strong> Carina Rosende<br><strong>VP:</strong> Sandra Villafañe</td><td style="padding: 8px 10px;"><strong>P:</strong> German Bragulat<br><strong>VP:</strong> Candelaria Pedraza</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">4</td><td style="padding: 8px 10px;">Aula 21</td><td style="padding: 8px 10px;">Lic. Sistemas L - Z</td><td style="padding: 8px 10px;"><strong>P:</strong> María Pianciola<br><strong>VP:</strong> Pablo Nuñez Cortez</td><td style="padding: 8px 10px;"><strong>P:</strong> Alejandra Santos<br><strong>VP:</strong> María Saavedra</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">5</td><td style="padding: 8px 10px;">Aula 21</td><td style="padding: 8px 10px;">Alimentos / GAU / Ferroviaria / Ec. Pol.</td><td style="padding: 8px 10px;"><strong>P:</strong> Fernando Durán<br><strong>VP:</strong> Sabrina Alonso</td><td style="padding: 8px 10px;"><strong>P:</strong> Romina Caro<br><strong>VP:</strong> Diego Dalena</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">6</td><td style="padding: 8px 10px;">Aula 21</td><td style="padding: 8px 10px;">Lic. y Ciclo Turismo</td><td style="padding: 8px 10px;"><strong>P:</strong> Alberto Szwarc<br><strong>VP:</strong> Jorgelina Lamela</td><td style="padding: 8px 10px;"><strong>P:</strong> Alejandro Dajud<br><strong>VP:</strong> Romina Clavero</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">7</td><td style="padding: 8px 10px;">Aula 20</td><td style="padding: 8px 10px;">Lic. Audiovisión</td><td style="padding: 8px 10px;"><strong>P:</strong> Daniela Margani<br><strong>VP:</strong> Romina Aybar</td><td style="padding: 8px 10px;"><strong>P:</strong> Mariela Roscardi<br><strong>VP:</strong> Ivana Cardo</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">8</td><td style="padding: 8px 10px;">Aula 20</td><td style="padding: 8px 10px;">Lic. Diseño Industrial</td><td style="padding: 8px 10px;"><strong>P:</strong> Fabian Martinez<br><strong>VP:</strong> Leonardo Schiavo</td><td style="padding: 8px 10px;"><strong>P:</strong> Andres Ruscitti<br><strong>VP:</strong> Pablo Caffaro</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">9</td><td style="padding: 8px 10px;">Aula 20</td><td style="padding: 8px 10px;">Lic. Diseño y Comunicación Visual</td><td style="padding: 8px 10px;"><strong>P:</strong> Agustin Enrico<br><strong>VP:</strong> Javier Lorenzo</td><td style="padding: 8px 10px;"><strong>P:</strong> Alejandra Fazzio<br><strong>VP:</strong> Lia Florencia Romero</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">10</td><td style="padding: 8px 10px;">Aula 20</td><td style="padding: 8px 10px;">Lic. Música y Traductorado</td><td style="padding: 8px 10px;"><strong>P:</strong> Gabriela Jaine<br><strong>VP:</strong> Leandro Tassiello</td><td style="padding: 8px 10px;"><strong>P:</strong> Fernando Salvatierra<br><strong>VP:</strong> Fernando Klichuk</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">11</td><td style="padding: 8px 10px;">Aula 19</td><td style="padding: 8px 10px;">Lic. y Ciclo Ciencias Políticas</td><td style="padding: 8px 10px;"><strong>P:</strong> Soledad Pont<br><strong>VP:</strong> Florencia Martín</td><td style="padding: 8px 10px;"><strong>P:</strong> Ignacio Kuppe<br><strong>VP:</strong> Vanina Louche</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">12</td><td style="padding: 8px 10px;">Aula 19</td><td style="padding: 8px 10px;">Lic. y Ciclo Educación</td><td style="padding: 8px 10px;"><strong>P:</strong> Cecilia Gagliano<br><strong>VP:</strong> Noelia Mazzeo</td><td style="padding: 8px 10px;"><strong>P:</strong> Laura Manent<br><strong>VP:</strong> María Inés Firmenich</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">13</td><td style="padding: 8px 10px;">Aula 19</td><td style="padding: 8px 10px;">Lic. Relaciones Internacionales</td><td style="padding: 8px 10px;"><strong>P:</strong> Sabrina Rodriguez<br><strong>VP:</strong> Carina Tavagnutti</td><td style="padding: 8px 10px;"><strong>P:</strong> Javier Areco<br><strong>VP:</strong> Carina Visciglia</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">14</td><td style="padding: 8px 10px;">Aula 19</td><td style="padding: 8px 10px;">Seg. Ciudadana / Justicia y DDHH</td><td style="padding: 8px 10px;"><strong>P:</strong> Celeste Lavallen<br><strong>VP:</strong> Esther Tapia</td><td style="padding: 8px 10px;"><strong>P:</strong> Soledad Romero<br><strong>VP:</strong> Victoria Moret</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">15</td><td style="padding: 8px 10px;">Aula 18</td><td style="padding: 8px 10px;">Lic. y Ciclo Enfermería</td><td style="padding: 8px 10px;"><strong>P:</strong> Guillermo Tangelson<br><strong>VP:</strong> Eliana Castiñeira</td><td style="padding: 8px 10px;"><strong>P:</strong> Walter Ivaldi<br><strong>VP:</strong> Carlos Ulla</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">16</td><td style="padding: 8px 10px;">Aula 18</td><td style="padding: 8px 10px;">Lic. Nutrición A - K</td><td style="padding: 8px 10px;"><strong>P:</strong> Claudia Gonzalez<br><strong>VP:</strong> Daniela Tagliafico</td><td style="padding: 8px 10px;"><strong>P:</strong> Ivana Müller<br><strong>VP:</strong> Juan Pablo Moraña</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">17</td><td style="padding: 8px 10px;">Aula 18</td><td style="padding: 8px 10px;">Lic. Nutrición L - Z</td><td style="padding: 8px 10px;"><strong>P:</strong> Giselle Quiroga<br><strong>VP:</strong> Kevin Olomucki</td><td style="padding: 8px 10px;"><strong>P:</strong> Diego Martínez<br><strong>VP:</strong> Johana Galisteo</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">18</td><td style="padding: 8px 10px;">Aula 18</td><td style="padding: 8px 10px;">Trabajo Social / Educación Física</td><td style="padding: 8px 10px;"><strong>P:</strong> Victoria Turso<br><strong>VP:</strong> Gustavo Castro</td><td style="padding: 8px 10px;"><strong>P:</strong> Jesica Artaza<br><strong>VP:</strong> Alejandro Toutodjian</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border);"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">19</td><td style="padding: 8px 10px;">Aula 5</td><td style="padding: 8px 10px;">Docentes ambos Departamentos</td><td style="padding: 8px 10px;"><strong>P:</strong> Eliana Pared<br><strong>VP:</strong> Sandra Serafini</td><td style="padding: 8px 10px;"><strong>P:</strong> Fernando Durán<br><strong>VP:</strong> Omar Molina</td></tr>
+                  <tr style="border-bottom: 1px solid var(--unla-border); background: #fff5f5;"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">20</td><td style="padding: 8px 10px;">Aula 5</td><td style="padding: 8px 10px;">Nodocentes ambos Deptos (28/10)</td><td style="padding: 8px 10px;"><strong>P:</strong> Marcela Repossi<br><strong>VP:</strong> Alejandra Cendra</td><td style="padding: 8px 10px;"><strong>P:</strong> Esteban Pintos<br><strong>VP:</strong> Martín Hours</td></tr>
+                  <tr style="background: #fdfdfe;"><td style="padding: 8px 10px; font-weight: 700; text-align: center;">20</td><td style="padding: 8px 10px;">Virtual</td><td style="padding: 8px 10px;">Graduados / Posgrado / Distancia</td><td style="padding: 8px 10px;"><strong>P:</strong> Lihuen Arscone<br><strong>VP:</strong> Ana Laura Lurbe</td><td style="padding: 8px 10px;"><em>(Misma designación)</em></td></tr>
+                </tbody>
+              </table>
             </div>
+          </details>
 
-          </div>
         </div>
       </section>
 
