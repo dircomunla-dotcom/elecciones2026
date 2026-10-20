@@ -9,7 +9,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 - **Institución:** Universidad Nacional de Lanús (UNLa).
 - **Archivos Principales:**
   - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html): Archivo único con estructura HTML, estilos CSS integrados, scripts JS interactivos, componentes y SEO estructurado.
-  - Documentos Oficiales: `acta-1-JE.pdf`, `acta-2-JE.pdf`, `acta-3-JE.pdf`, `acta-4-JE.pdf`, `acta-5-JE.pdf`, `acta-6-JE.pdf`, `acta-7-JE.pdf`, `acta-8-JE.pdf`, `lista-2.pdf`, `lista-7.pdf`, `lista-10.pdf`, `lista-22.pdf`.
+  - Documentos Oficiales: `acta-1-JE.pdf`, `acta-2-JE.pdf`, `acta-3-JE.pdf`, `acta-4-JE.pdf`, `acta-5-JE.pdf`, `acta-6-JE.pdf`, `acta-7-JE.pdf`, `acta-8-JE.pdf`, `acta-9-JE.pdf`, `lista-2.pdf`, `lista-7.pdf`, `lista-10.pdf`, `lista-22.pdf`.
 
 ---
 
@@ -42,6 +42,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **16/10/2026** | **Rehabilitación Menú Listas y Noticia de Oficialización** | Rehabilitación de la visibilidad del botón de menú «Listas» en `index.html` y publicación de nueva noticia principal en «Información General» anunciando la oficialización de listas (Acta N° 8) con botón de acceso a la sección. |
 | **16/10/2026** | **Pestañas de Listas y Ajuste de Fuentes del Menú** | Implementación de selector interactivo de sub-pestañas para las 4 listas con carga bajo demanda (prevención definitiva del error Nginx 429 Too Many Requests) y reducción tipográfica/espaciado de los ítems de navegación para encajar horizontalmente en pantallas de escritorio sin saltos de línea. |
 | **16/10/2026** | **Centrado de Menú, Unificación de Fila en Listas y Corrección de Secciones** | Centrado horizontal del menú de navegación en escritorio, eliminación de duplicado en encabezado de Listas, alineación de las 4 botoneras en una sola fila (grid de 4 columnas en PC / 2x2 en móvil) y resolución del anidamiento de secciones restaurando la visibilidad de Actas, Resoluciones y FAQ. |
+| **20/10/2026** | **Incorporación Acta N° 9** | Adición oficial de `acta-9-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 20 de octubre de 2026, resumen de notificación y designación de autoridades de mesa (presidentes/as y vicepresidentes/as) con asignación de puestos, aulas, días y turnos de votación, y botón de descarga. |
 
 ---
 
@@ -284,6 +285,13 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   2. Se eliminó la etiqueta `<section id="sec-listas">` duplicada y su encabezado redundante.
   3. Se organizaron las 4 botoneras de selección de listas en una grilla de 4 columnas (`repeat(4, 1fr)`) en escritorio y 2x2 en móviles, con tipografía adaptada (12px) y textos sintetizados para garantizar una sola fila perfecta en PC.
   4. La corrección del anidamiento no cerrado en la sección de Listas restableció la jerarquía directa bajo `<main>` de las secciones `#sec-actas-junta`, `#sec-resoluciones-interes` y `#sec-faq`, recuperando su visibilidad inmediata.
+- **Estado:** ✅ Completado.
+
+### 🔹 Prompt #30 — Incorporación de Acta N° 9 de la Junta Electoral
+- **Fecha:** 20/10/2026
+- **Prompt:**
+  > *"Agregué el archivo `acta-9-JE.pdf`. Por favor léelo, extrae su fecha y redacta una línea con su resumen para agregarlo arriba de todo en la sección de Actas de la Junta Electoral de index.html con su botón de descarga"*
+- **Acción ejecutada:** Se realizó la lectura e interpretación de [`acta-9-JE.pdf`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/acta-9-JE.pdf), identificando su fecha oficial (20 de octubre de 2026) y contenido resolutivo (notificación y designación de las autoridades de mesa —presidentes/as y vicepresidentes/as— con detalle de claustros, días, turnos horarios de 10 a 14:30 hs y de 14:30 a 19:00 hs, aulas y puestos de votación). Se insertó la tarjeta correspondiente arriba de todo en la sección «Actas de la Junta Electoral» en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) con su enlace y botón de descarga oficial.
 - **Estado:** ✅ Completado.
 
 ---
