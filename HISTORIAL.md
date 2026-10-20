@@ -9,6 +9,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 - **Institución:** Universidad Nacional de Lanús (UNLa).
 - **Archivos Principales:**
   - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html): Archivo único con estructura HTML, estilos CSS integrados, scripts JS interactivos, componentes y SEO estructurado.
+  - [`puestos_y_aulas_votacion.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/puestos_y_aulas_votacion.md): Documento de referencia con la asignación de aulas, puestos de votación y nómina de autoridades de mesa (Acta N° 9).
   - Documentos Oficiales: `acta-1-JE.pdf`, `acta-2-JE.pdf`, `acta-3-JE.pdf`, `acta-4-JE.pdf`, `acta-5-JE.pdf`, `acta-6-JE.pdf`, `acta-7-JE.pdf`, `acta-8-JE.pdf`, `acta-9-JE.pdf`, `lista-2.pdf`, `lista-7.pdf`, `lista-10.pdf`, `lista-22.pdf`.
 
 ---
@@ -43,6 +44,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **16/10/2026** | **Pestañas de Listas y Ajuste de Fuentes del Menú** | Implementación de selector interactivo de sub-pestañas para las 4 listas con carga bajo demanda (prevención definitiva del error Nginx 429 Too Many Requests) y reducción tipográfica/espaciado de los ítems de navegación para encajar horizontalmente en pantallas de escritorio sin saltos de línea. |
 | **16/10/2026** | **Centrado de Menú, Unificación de Fila en Listas y Corrección de Secciones** | Centrado horizontal del menú de navegación en escritorio, eliminación de duplicado en encabezado de Listas, alineación de las 4 botoneras en una sola fila (grid de 4 columnas en PC / 2x2 en móvil) y resolución del anidamiento de secciones restaurando la visibilidad de Actas, Resoluciones y FAQ. |
 | **20/10/2026** | **Incorporación Acta N° 9** | Adición oficial de `acta-9-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 20 de octubre de 2026, resumen de notificación y designación de autoridades de mesa (presidentes/as y vicepresidentes/as) con asignación de puestos, aulas, días y turnos de votación, y botón de descarga. |
+| **20/10/2026** | **Noticia de Autoridades/Aulas y Documento de Puestos** | Publicación de nueva noticia principal en «Noticias y Novedades Electorales» sobre el Acta N° 9 (autoridades de mesa, aulas y turnos) con botón de descarga y accesos directos. Creación del documento `puestos_y_aulas_votacion.md` con el desglose integral de los 20 puestos de votación, aulas, turnos y nómina de autoridades. |
 
 ---
 
@@ -292,6 +294,15 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Prompt:**
   > *"Agregué el archivo `acta-9-JE.pdf`. Por favor léelo, extrae su fecha y redacta una línea con su resumen para agregarlo arriba de todo en la sección de Actas de la Junta Electoral de index.html con su botón de descarga"*
 - **Acción ejecutada:** Se realizó la lectura e interpretación de [`acta-9-JE.pdf`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/acta-9-JE.pdf), identificando su fecha oficial (20 de octubre de 2026) y contenido resolutivo (notificación y designación de las autoridades de mesa —presidentes/as y vicepresidentes/as— con detalle de claustros, días, turnos horarios de 10 a 14:30 hs y de 14:30 a 19:00 hs, aulas y puestos de votación). Se insertó la tarjeta correspondiente arriba de todo en la sección «Actas de la Junta Electoral» en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) con su enlace y botón de descarga oficial.
+- **Estado:** ✅ Completado.
+
+### 🔹 Prompt #31 — Noticia Principal sobre Acta N° 9 y Archivo de Puestos y Aulas
+- **Fecha:** 20/10/2026
+- **Prompt:**
+  > *"Haz una noticia para poner primero en la parte de Novedades de Información general, en la que cuentes sobre esta acta. Podrías separarme en un archivo txt o md los puestos de votación y las aulas donde van a estar?"*
+- **Acción ejecutada:**
+  1. En [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html), se redactó y colocó en primer lugar de la sección «Noticias y Novedades Electorales» una nueva noticia con fecha 20 de octubre de 2026, detallando la designación de autoridades de mesa (Acta N° 9), los turnos horarios (10:00 a 14:30 hs y 14:30 a 19:00 hs), la asignación de aulas (Aulas 21, 20, 19, 18 y 5) y enlaces directos al PDF del acta, a la sección de actas y a la consulta de padrones.
+  2. Se creó el archivo estructurado [`puestos_y_aulas_votacion.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/puestos_y_aulas_votacion.md) que reúne la distribución de los 20 puestos de votación por aula física/departamento/claustro, días, turnos horarios y la tabla completa de autoridades titulares y suplentes designadas.
 - **Estado:** ✅ Completado.
 
 ---
