@@ -1,12 +1,12 @@
 # 🗳️ Elecciones UNLa 2026
 ## Distribución Oficial de Puestos de Votación y Aulas
-**Fuente Oficial:** Acta N° 9 (20 de octubre de 2026) y Acta N° 10 (22 de octubre de 2026) - Junta Electoral
+**Fuente Oficial:** [Acta N° 9 (20 de octubre de 2026)](https://www.unla.edu.ar/elecciones2026/acta-9-JE.pdf) y [Acta N° 10 (22 de octubre de 2026)](https://www.unla.edu.ar/elecciones2026/acta-10-JE.pdf) - Junta Electoral
 
 ---
 
 ### 📅 Fechas y Horarios Generales de Votación
 - **Días de comicios:** 27, 28 y 29 de octubre de 2026.
-  - *Excepción:* Claustro Nodocente vota presencialmente el día **jueves 29 de octubre de 2026** (trasladado por Acta N° 10).
+  - *Excepción:* Claustro Nodocente vota presencialmente el día **jueves 29 de octubre de 2026** (trasladado por [Acta N° 10](https://www.unla.edu.ar/elecciones2026/acta-10-JE.pdf)).
 - **Turnos diarios de mesa:**
   - **1° Turno:** 10:00 a 14:30 hs.
   - **2° Turno:** 14:30 a 19:00 hs.
@@ -66,7 +66,7 @@
   - **Horario:** 10:00 a 19:00 hs.
 - **Puesto de Votación N° 20 — Claustro Nodocente:**
   - **Ámbito:** Nodocentes de ambos Departamentos.
-  - **Día de votación:** Exclusivamente el **jueves 29 de octubre de 2026** (trasladado conforme Acta N° 10 de la Junta Electoral).
+  - **Día de votación:** Exclusivamente el **jueves 29 de octubre de 2026** (trasladado conforme [Acta N° 10](https://www.unla.edu.ar/elecciones2026/acta-10-JE.pdf) de la Junta Electoral).
   - **Horario:** 10:00 a 19:00 hs.
 
 ---
@@ -103,7 +103,7 @@
 | **17** | Aula 18 | Estudiantes | Lic. Nutrición L - Z (DESACO) | 27, 28 y 29/10 |
 | **18** | Aula 18 | Estudiantes | Trabajo Social / Educación Física (DESACO) | 27, 28 y 29/10 |
 | **19** | Aula 5 | Docente | Docentes ambos Departamentos | 27, 28 y 29/10 |
-| **20** | Aula 5 | Nodocente | Nodocentes ambos Departamentos | **29/10 (Acta N° 10)** |
+| **20** | Aula 5 | Nodocente | Nodocentes ambos Departamentos | **29/10 ([Acta N° 10](https://www.unla.edu.ar/elecciones2026/acta-10-JE.pdf))** |
 | **20** | Virtual | Graduados / Distancia | Graduados/as, Posgrado y Carreras a Distancia | 27, 28 y 29/10 |
 
 ---
@@ -131,5 +131,5 @@
 | **17** | Aula 18 | Lic. Nutrición L - Z | **P:** Giselle Quiroga<br>**VP:** Kevin Olomucki | **P:** Diego Martínez<br>**VP:** Johana Galisteo |
 | **18** | Aula 18 | Trabajo Social / Educación Física | **P:** Victoria Turso<br>**VP:** Gustavo Castro | **P:** Jesica Artaza<br>**VP:** Alejandro Toutodjian |
 | **19** | Aula 5 | Docentes ambos Departamentos | **P:** Eliana Pared<br>**VP:** Sandra Serafini | **P:** Fernando Durán<br>**VP:** Omar Molina |
-| **20** | Aula 5 | Nodocentes ambos Deptos (29/10 - Acta 10) | **P:** Marcela Repossi<br>**VP:** Alejandra Cendra | **P:** Esteban Pintos<br>**VP:** Martín Hours |
+| **20** | Aula 5 | Nodocentes ambos Deptos (29/10 - [Acta N° 10](https://www.unla.edu.ar/elecciones2026/acta-10-JE.pdf)) | **P:** Marcela Repossi<br>**VP:** Alejandra Cendra | **P:** Esteban Pintos<br>**VP:** Martín Hours |
 | **20** | Virtual | Graduados / Posgrado / Distancia | **P:** Lihuen Arscone<br>**VP:** Ana Laura Lurbe | *(Mismo turno / asignación)* |
