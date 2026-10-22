@@ -10,7 +10,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 - **Archivos Principales:**
   - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html): Archivo único con estructura HTML, estilos CSS integrados, scripts JS interactivos, componentes y SEO estructurado.
   - [`puestos_y_aulas_votacion.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/puestos_y_aulas_votacion.md): Documento de referencia con la asignación de aulas, puestos de votación y nómina de autoridades de mesa (Acta N° 9).
-  - Documentos Oficiales: `acta-1-JE.pdf`, `acta-2-JE.pdf`, `acta-3-JE.pdf`, `acta-4-JE.pdf`, `acta-5-JE.pdf`, `acta-6-JE.pdf`, `acta-7-JE.pdf`, `acta-8-JE.pdf`, `acta-9-JE.pdf`, `lista-2.pdf`, `lista-7.pdf`, `lista-10.pdf`, `lista-22.pdf`.
+  - Documentos Oficiales: `acta-1-JE.pdf`, `acta-2-JE.pdf`, `acta-3-JE.pdf`, `acta-4-JE.pdf`, `acta-5-JE.pdf`, `acta-6-JE.pdf`, `acta-7-JE.pdf`, `acta-8-JE.pdf`, `acta-9-JE.pdf`, `acta-10-JE.pdf`, `lista-2.pdf`, `lista-7.pdf`, `lista-10.pdf`, `lista-22.pdf`.
 
 ---
 
@@ -46,6 +46,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **20/10/2026** | **Incorporación Acta N° 9** | Adición oficial de `acta-9-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 20 de octubre de 2026, resumen de notificación y designación de autoridades de mesa (presidentes/as y vicepresidentes/as) con asignación de puestos, aulas, días y turnos de votación, y botón de descarga. |
 | **20/10/2026** | **Noticia de Autoridades/Aulas y Documento de Puestos** | Publicación de nueva noticia principal en «Noticias y Novedades Electorales» sobre el Acta N° 9 (autoridades de mesa, aulas y turnos) con botón de descarga y accesos directos. Creación del documento `puestos_y_aulas_votacion.md` con el desglose integral de los 20 puestos de votación, aulas, turnos y nómina de autoridades. |
 | **20/10/2026** | **Actualización Menú Puestos de Votación** | Reestructuración integral de la sección «Puestos de Votación» (`#sec-puestos-votacion`) en `index.html` incorporando banner informativo, tarjetas por aula física (Aulas 21, 20, 19, 18, 5 y Virtual), tabla comparativa de los 20 puestos y acordeón interactivo con la nómina de autoridades de mesa (Acta N° 9). |
+| **22/10/2026** | **Incorporación Acta N° 10** | Adición oficial de `acta-10-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 22 de octubre de 2026, resolución de traslado de la elección del Claustro Nodocente al jueves 29 de octubre (de 10 a 19 hs) ante la medida de fuerza de FATUN, y botón de descarga. |
 
 ---
 
@@ -315,6 +316,13 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   2. Grilla interactiva de tarjetas diferenciadas por aula física (Aula 21 para DDPyT, Aula 20 para DHyA, Aula 19 para DPyPP, Aula 18 para DESACO, Aula 5 para Docentes y Nodocentes, y entorno para Modalidad Virtual).
   3. Tabla general completa con los 20 puestos de votación, aulas, claustros, carreras/ámbitos, días y horarios de sufragio.
   4. Acordeón interactivo con la nómina oficial completa de autoridades de mesa designadas (presidentes/as y vicepresidentes/as) para los dos turnos diarios.
+- **Estado:** ✅ Completado.
+
+### 🔹 Prompt #33 — Incorporación de Acta N° 10 de la Junta Electoral
+- **Fecha:** 22/10/2026
+- **Prompt:**
+  > *"Agregué el archivo `acta-10-JE.pdf`. Por favor léelo, extrae su fecha y redacta una línea con su resumen para agregarlo arriba de todo en la sección de Actas de la Junta Electoral de index.html con su botón de descarga."*
+- **Acción ejecutada:** Se realizó la lectura e interpretación de [`acta-10-JE.pdf`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/acta-10-JE.pdf), identificando su fecha oficial (22 de octubre de 2026) y contenido resolutivo (traslado de la elección del Claustro Nodocente al jueves 29 de octubre de 2026, de 10 a 19 hs en el mismo puesto de votación, con motivo de la medida de fuerza de FATUN, manteniéndose sin cambios el cronograma de los demás claustros y las autoridades de mesa designadas por Acta N° 9). Se insertó la tarjeta correspondiente arriba de todo en la sección «Actas de la Junta Electoral» en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) con su enlace y botón de descarga oficial.
 - **Estado:** ✅ Completado.
 
 ---
