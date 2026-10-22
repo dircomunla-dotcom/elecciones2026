@@ -49,6 +49,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **22/10/2026** | **Incorporación Acta N° 10** | Adición oficial de `acta-10-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 22 de octubre de 2026, resolución de traslado de la elección del Claustro Nodocente al jueves 29 de octubre (de 10 a 19 hs) ante la medida de fuerza de FATUN, y botón de descarga. |
 | **22/10/2026** | **Noticia Principal Acta N° 10 (Traslado Nodocente)** | Redacción e inserción de nueva noticia principal en primer lugar de «Noticias y Novedades Electorales» sobre el traslado de la elección nodocente al 29/10 (Acta N° 10) con botón de descarga del PDF. |
 | **22/10/2026** | **Actualización Integral de Fechas Nodocente (29/10)** | Modificación de todas las menciones de fecha de los comicios presenciales del Claustro Nodocente en `index.html` (modalidades de votación, noticia Acta N° 9, cronograma electoral, banner y tarjeta de Aula 5 en puestos de votación, tabla comparativa de los 20 puestos y nómina de autoridades) y en `puestos_y_aulas_votacion.md`, estableciendo el jueves 29 de octubre de 2026 conforme a lo dispuesto en el Acta N° 10. |
+| **22/10/2026** | **Enlace y Descarga al Acta N° 10 en Referencias** | Inserción de hipervínculos directos al archivo PDF oficial de `acta-10-JE.pdf` en cada una de las menciones al Acta N° 10 en `index.html` y en `puestos_y_aulas_votacion.md`. |
 
 ---
 
@@ -352,6 +353,13 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
      - Excepción de días y horarios generales.
      - Detalle del Puesto N° 20 en Aula 5.
      - Tabla resumen sintética y nómina de autoridades de mesa.
+- **Estado:** ✅ Completado.
+
+### 🔹 Prompt #36 — Hipervínculos Directos al PDF del Acta N° 10
+- **Fecha:** 22/10/2026
+- **Prompt:**
+  > *"En estos lugares que acabas de modificar haciendo referencia al Acta 10, podrías linkearla cada vez que la mencionas?"*
+- **Acción ejecutada:** Se incorporó el enlace directo al archivo PDF oficial (`https://www.unla.edu.ar/elecciones2026/acta-10-JE.pdf` con `target="_blank"` y `rel="noopener"`) en cada una de las menciones textuales al **Acta N° 10** en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) (Modalidades de Votación, noticia del Acta N° 9, Cronograma Electoral, banner de Puestos de Votación, tarjeta de Aula 5, tabla comparativa de puestos y tabla de autoridades) y en el documento markdown [`puestos_y_aulas_votacion.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/puestos_y_aulas_votacion.md).
 - **Estado:** ✅ Completado.
 
 ---
