@@ -47,6 +47,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **20/10/2026** | **Noticia de Autoridades/Aulas y Documento de Puestos** | Publicación de nueva noticia principal en «Noticias y Novedades Electorales» sobre el Acta N° 9 (autoridades de mesa, aulas y turnos) con botón de descarga y accesos directos. Creación del documento `puestos_y_aulas_votacion.md` con el desglose integral de los 20 puestos de votación, aulas, turnos y nómina de autoridades. |
 | **20/10/2026** | **Actualización Menú Puestos de Votación** | Reestructuración integral de la sección «Puestos de Votación» (`#sec-puestos-votacion`) en `index.html` incorporando banner informativo, tarjetas por aula física (Aulas 21, 20, 19, 18, 5 y Virtual), tabla comparativa de los 20 puestos y acordeón interactivo con la nómina de autoridades de mesa (Acta N° 9). |
 | **22/10/2026** | **Incorporación Acta N° 10** | Adición oficial de `acta-10-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 22 de octubre de 2026, resolución de traslado de la elección del Claustro Nodocente al jueves 29 de octubre (de 10 a 19 hs) ante la medida de fuerza de FATUN, y botón de descarga. |
+| **22/10/2026** | **Noticia Principal Acta N° 10 (Traslado Nodocente)** | Redacción e inserción de nueva noticia principal en primer lugar de «Noticias y Novedades Electorales» sobre el traslado de la elección nodocente al 29/10 (Acta N° 10) con botón de descarga del PDF. |
 
 ---
 
@@ -323,6 +324,13 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Prompt:**
   > *"Agregué el archivo `acta-10-JE.pdf`. Por favor léelo, extrae su fecha y redacta una línea con su resumen para agregarlo arriba de todo en la sección de Actas de la Junta Electoral de index.html con su botón de descarga."*
 - **Acción ejecutada:** Se realizó la lectura e interpretación de [`acta-10-JE.pdf`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/acta-10-JE.pdf), identificando su fecha oficial (22 de octubre de 2026) y contenido resolutivo (traslado de la elección del Claustro Nodocente al jueves 29 de octubre de 2026, de 10 a 19 hs en el mismo puesto de votación, con motivo de la medida de fuerza de FATUN, manteniéndose sin cambios el cronograma de los demás claustros y las autoridades de mesa designadas por Acta N° 9). Se insertó la tarjeta correspondiente arriba de todo en la sección «Actas de la Junta Electoral» en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) con su enlace y botón de descarga oficial.
+- **Estado:** ✅ Completado.
+
+### 🔹 Prompt #34 — Noticia Principal sobre Acta N° 10 (Traslado Elección Nodocente)
+- **Fecha:** 22/10/2026
+- **Prompt:**
+  > *"Ahora redacta una noticia con el contenidos de esta acta para colocar primero en el listado de novedades de Información General"*
+- **Acción ejecutada:** En [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html), se redactó y colocó en primer lugar de la sección «Noticias y Novedades Electorales» una nueva noticia destacada con fecha 22 de octubre de 2026, comunicando la decisión de la Junta Electoral de trasladar los comicios del Claustro Nodocente al jueves 29 de octubre (10 a 19 hs, Aula 5) ante la medida de fuerza de FATUN, ratificando el cronograma del resto de los claustros, las autoridades de mesa designadas por Acta N° 9 y proveyendo botón de descarga directa de [`acta-10-JE.pdf`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/acta-10-JE.pdf) y links a la sección de actas.
 - **Estado:** ✅ Completado.
 
 ---
