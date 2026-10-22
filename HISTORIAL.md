@@ -48,6 +48,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **20/10/2026** | **Actualización Menú Puestos de Votación** | Reestructuración integral de la sección «Puestos de Votación» (`#sec-puestos-votacion`) en `index.html` incorporando banner informativo, tarjetas por aula física (Aulas 21, 20, 19, 18, 5 y Virtual), tabla comparativa de los 20 puestos y acordeón interactivo con la nómina de autoridades de mesa (Acta N° 9). |
 | **22/10/2026** | **Incorporación Acta N° 10** | Adición oficial de `acta-10-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 22 de octubre de 2026, resolución de traslado de la elección del Claustro Nodocente al jueves 29 de octubre (de 10 a 19 hs) ante la medida de fuerza de FATUN, y botón de descarga. |
 | **22/10/2026** | **Noticia Principal Acta N° 10 (Traslado Nodocente)** | Redacción e inserción de nueva noticia principal en primer lugar de «Noticias y Novedades Electorales» sobre el traslado de la elección nodocente al 29/10 (Acta N° 10) con botón de descarga del PDF. |
+| **22/10/2026** | **Actualización Integral de Fechas Nodocente (29/10)** | Modificación de todas las menciones de fecha de los comicios presenciales del Claustro Nodocente en `index.html` (modalidades de votación, noticia Acta N° 9, cronograma electoral, banner y tarjeta de Aula 5 en puestos de votación, tabla comparativa de los 20 puestos y nómina de autoridades) y en `puestos_y_aulas_votacion.md`, estableciendo el jueves 29 de octubre de 2026 conforme a lo dispuesto en el Acta N° 10. |
 
 ---
 
@@ -331,6 +332,26 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Prompt:**
   > *"Ahora redacta una noticia con el contenidos de esta acta para colocar primero en el listado de novedades de Información General"*
 - **Acción ejecutada:** En [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html), se redactó y colocó en primer lugar de la sección «Noticias y Novedades Electorales» una nueva noticia destacada con fecha 22 de octubre de 2026, comunicando la decisión de la Junta Electoral de trasladar los comicios del Claustro Nodocente al jueves 29 de octubre (10 a 19 hs, Aula 5) ante la medida de fuerza de FATUN, ratificando el cronograma del resto de los claustros, las autoridades de mesa designadas por Acta N° 9 y proveyendo botón de descarga directa de [`acta-10-JE.pdf`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/acta-10-JE.pdf) y links a la sección de actas.
+- **Estado:** ✅ Completado.
+
+### 🔹 Prompt #35 — Actualización Integral de Fechas de Votación del Claustro Nodocente (29 de Octubre)
+- **Fecha:** 22/10/2026
+- **Prompt:**
+  > *"En todos los lugares donde corresponda, debemos poner ahora que las elecciones de claustro NOdocente serán el 29 de octubre"*
+- **Acción ejecutada:** Se actualizaron todas las referencias y menciones a la fecha de comicios presenciales del Claustro Nodocente, reemplazando el 28 de octubre por el **jueves 29 de octubre de 2026** (10:00 a 19:00 hs, Aula 5, conforme Acta N° 10) en:
+  1. [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html):
+     - Bloque «Modalidades y Fechas de Votación».
+     - Noticia del Acta N° 9 en «Información General».
+     - Hito de Días de Comicios en el «Cronograma Electoral».
+     - Banner informativo de «Puestos de Votación».
+     - Tarjeta destacada de «Aula 5: Docentes y Nodocentes».
+     - Tabla comparativa de los 20 puestos de votación (Puesto 20).
+     - Nómina de autoridades de mesa designadas (Puesto 20).
+  2. [`puestos_y_aulas_votacion.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/puestos_y_aulas_votacion.md):
+     - Encabezado y fuente oficial (Actas N° 9 y N° 10).
+     - Excepción de días y horarios generales.
+     - Detalle del Puesto N° 20 en Aula 5.
+     - Tabla resumen sintética y nómina de autoridades de mesa.
 - **Estado:** ✅ Completado.
 
 ---
