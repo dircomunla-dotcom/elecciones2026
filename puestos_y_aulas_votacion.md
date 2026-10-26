@@ -1,6 +1,14 @@
 # 🗳️ Elecciones UNLa 2026
 ## Distribución Oficial de Puestos de Votación y Aulas
-**Fuente Oficial:** [Acta N° 9 (20 de octubre de 2026)](https://www.unla.edu.ar/elecciones2026/acta-9-JE.pdf) y [Acta N° 10 (22 de octubre de 2026)](https://www.unla.edu.ar/elecciones2026/acta-10-JE.pdf) - Junta Electoral
+**Fuente Oficial:** [Acta N° 9 (20 de octubre de 2026)](https://www.unla.edu.ar/elecciones2026/acta-9-JE.pdf), [Acta N° 10 (22 de octubre de 2026)](https://www.unla.edu.ar/elecciones2026/acta-10-JE.pdf) y [Acta N° 11 (26 de octubre de 2026)](https://www.unla.edu.ar/elecciones2026/acta-11-JE.pdf) - Junta Electoral
+
+---
+
+### 📍 Sedes Presenciales de Votación
+- **Edificio José Hernández** (Sede Central - Predio 29 de Septiembre 3901, Remedios de Escalada):
+  - **Puestos 1 al 7 y 9 al 20** (Aulas 21, 20, 19, 18 y Aula 5).
+- **Polo Tecnológico - Edificio Talleres** (Av. Hipólito Yrigoyen 5682, Remedios de Escalada):
+  - **Puesto 8** (Licenciatura en Diseño Industrial, conforme [Acta N° 4](https://www.unla.edu.ar/elecciones2026/acta-4-JE.pdf) y ratificado por [Acta N° 11](https://www.unla.edu.ar/elecciones2026/acta-11-JE.pdf)).
 
 ---
 
@@ -13,9 +21,9 @@
 
 ---
 
-### 📍 Distribución de Puestos por Aula y Claustro
+### 📍 Distribución de Puestos por Sede, Aula y Claustro
 
-#### 🏢 AULA 21 — DDPyT (Departamento de Desarrollo Productivo y Tecnológico)
+#### 🏢 AULA 21 — DDPyT (Departamento de Desarrollo Productivo y Tecnológico) — Edificio José Hernández
 *Claustro Estudiantes — Días 27, 28 y 29 de octubre (10:00 a 19:00 hs)*
 
 - **Puesto de Votación N° 1:** Licenciatura y Ciclo de Licenciatura en Economía Empresarial.
@@ -27,13 +35,21 @@
 
 ---
 
-#### 🏢 AULA 20 — DHyA (Departamento de Humanidades y Artes)
+#### 🏢 AULA 20 — DHyA (Departamento de Humanidades y Artes) — Edificio José Hernández
 *Claustro Estudiantes — Días 27, 28 y 29 de octubre (10:00 a 19:00 hs)*
 
 - **Puesto de Votación N° 7:** Licenciatura en Audiovisión.
-- **Puesto de Votación N° 8:** Licenciatura en Diseño Industrial.
 - **Puesto de Votación N° 9:** Licenciatura en Diseño y Comunicación Visual.
 - **Puesto de Votación N° 10:** Licenciatura en Música y Ciclo de Licenciatura en Traductorado Público en Idioma Inglés.
+
+> ⚠️ **Atención Estudiantes de Diseño Industrial:** El **Puesto de Votación N° 8** funciona en el **Polo Tecnológico - Edificio Talleres** (Av. Hipólito Yrigoyen 5682), conforme [Acta N° 11](https://www.unla.edu.ar/elecciones2026/acta-11-JE.pdf).
+
+---
+
+#### 🏭 POLO TECNOLÓGICO — EDIFICIO TALLERES (Av. Hipólito Yrigoyen 5682, Remedios de Escalada)
+*Claustro Estudiantes — Días 27, 28 y 29 de octubre (10:00 a 19:00 hs)*
+
+- **Puesto de Votación N° 8:** Licenciatura en Diseño Industrial (DHyA). Ratificado por la Junta Electoral en Actas N° 4 y 11.
 
 ---
 
