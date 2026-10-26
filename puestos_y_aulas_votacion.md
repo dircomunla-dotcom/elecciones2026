@@ -106,27 +106,27 @@
 | **4** | Aula 21 | Estudiantes | Lic. Sistemas L - Z (DDPyT) | 27, 28 y 29/10 |
 | **5** | Aula 21 | Estudiantes | Alimentos / GAU / Ferroviaria / Ec. Política (DDPyT) | 27, 28 y 29/10 |
 | **6** | Aula 21 | Estudiantes | Lic. y Ciclo Turismo (DDPyT) | 27, 28 y 29/10 |
-| **7** | Aula 20 | Estudiantes | Lic. Audiovisión (DHyA) | 27, 28 y 29/10 |
-| **8** | Aula 20 | Estudiantes | Lic. Diseño Industrial (DHyA) | 27, 28 y 29/10 |
-| **9** | Aula 20 | Estudiantes | Lic. Diseño y Comunicación Visual (DHyA) | 27, 28 y 29/10 |
-| **10** | Aula 20 | Estudiantes | Lic. Música y Traductorado (DHyA) | 27, 28 y 29/10 |
-| **11** | Aula 19 | Estudiantes | Lic. y Ciclo Ciencias Políticas (DPyPP) | 27, 28 y 29/10 |
-| **12** | Aula 19 | Estudiantes | Lic. y Ciclo Educación (DPyPP) | 27, 28 y 29/10 |
-| **13** | Aula 19 | Estudiantes | Lic. Relaciones Internacionales (DPyPP) | 27, 28 y 29/10 |
-| **14** | Aula 19 | Estudiantes | Seguridad Ciudadana / Justicia y DDHH (DPyPP) | 27, 28 y 29/10 |
-| **15** | Aula 18 | Estudiantes | Lic. y Ciclo Enfermería (DESACO) | 27, 28 y 29/10 |
-| **16** | Aula 18 | Estudiantes | Lic. Nutrición A - K (DESACO) | 27, 28 y 29/10 |
-| **17** | Aula 18 | Estudiantes | Lic. Nutrición L - Z (DESACO) | 27, 28 y 29/10 |
-| **18** | Aula 18 | Estudiantes | Trabajo Social / Educación Física (DESACO) | 27, 28 y 29/10 |
-| **19** | Aula 5 | Docente | Docentes ambos Departamentos | 27, 28 y 29/10 |
-| **20** | Aula 5 | Nodocente | Nodocentes ambos Departamentos | **29/10 ([Acta N° 10](https://www.unla.edu.ar/elecciones2026/acta-10-JE.pdf))** |
+| **7** | Aula 20 (Edif. Hernández) | Estudiantes | Lic. Audiovisión (DHyA) | 27, 28 y 29/10 |
+| **8** | **Polo Tecnológico** (Edif. Talleres - Yrigoyen 5682) | Estudiantes | **Lic. Diseño Industrial** (DHyA - [Acta N° 11](https://www.unla.edu.ar/elecciones2026/acta-11-JE.pdf)) | 27, 28 y 29/10 |
+| **9** | Aula 20 (Edif. Hernández) | Estudiantes | Lic. Diseño y Comunicación Visual (DHyA) | 27, 28 y 29/10 |
+| **10** | Aula 20 (Edif. Hernández) | Estudiantes | Lic. Música y Traductorado (DHyA) | 27, 28 y 29/10 |
+| **11** | Aula 19 (Edif. Hernández) | Estudiantes | Lic. y Ciclo Ciencias Políticas (DPyPP) | 27, 28 y 29/10 |
+| **12** | Aula 19 (Edif. Hernández) | Estudiantes | Lic. y Ciclo Educación (DPyPP) | 27, 28 y 29/10 |
+| **13** | Aula 19 (Edif. Hernández) | Estudiantes | Lic. Relaciones Internacionales (DPyPP) | 27, 28 y 29/10 |
+| **14** | Aula 19 (Edif. Hernández) | Estudiantes | Seguridad Ciudadana / Justicia y DDHH (DPyPP) | 27, 28 y 29/10 |
+| **15** | Aula 18 (Edif. Hernández) | Estudiantes | Lic. y Ciclo Enfermería (DESACO) | 27, 28 y 29/10 |
+| **16** | Aula 18 (Edif. Hernández) | Estudiantes | Lic. Nutrición A - K (DESACO) | 27, 28 y 29/10 |
+| **17** | Aula 18 (Edif. Hernández) | Estudiantes | Lic. Nutrición L - Z (DESACO) | 27, 28 y 29/10 |
+| **18** | Aula 18 (Edif. Hernández) | Estudiantes | Trabajo Social / Educación Física (DESACO) | 27, 28 y 29/10 |
+| **19** | Aula 5 (Edif. Hernández) | Docente | Docentes ambos Departamentos | 27, 28 y 29/10 |
+| **20** | Aula 5 (Edif. Hernández) | Nodocente | Nodocentes ambos Departamentos | **29/10 ([Acta N° 10](https://www.unla.edu.ar/elecciones2026/acta-10-JE.pdf))** |
 | **20** | Virtual | Graduados / Distancia | Graduados/as, Posgrado y Carreras a Distancia | 27, 28 y 29/10 |
 
 ---
 
-### 👥 Nómina de Autoridades de Mesa Designadas (Acta N° 9)
+### 👥 Nómina de Autoridades de Mesa Designadas (Acta N° 9 y Acta N° 11)
 
-| Puesto | Aula | Carrera / Claustro | Turno Mañana (10:00 a 14:30 hs) | Turno Tarde (14:30 a 19:00 hs) |
+| Puesto | Lugar / Aula | Carrera / Claustro | Turno Mañana (10:00 a 14:30 hs) | Turno Tarde (14:30 a 19:00 hs) |
 | :---: | :---: | :--- | :--- | :--- |
 | **1** | Aula 21 | Lic. y Ciclo Economía Empresarial | **P:** Mariana Peirano<br>**VP:** Natalia Hermida | **P:** Paula Vidal<br>**VP:** Federico Cestares |
 | **2** | Aula 21 | Lic. y Ciclo Planificación Logística | **P:** Gisela Prieto<br>**VP:** Camila Sanz | **P:** Cintia Paz<br>**VP:** Gastón Calabozo |
@@ -135,7 +135,7 @@
 | **5** | Aula 21 | Alimentos / GAU / Ferroviaria / Ec. Pol. | **P:** Fernando Durán<br>**VP:** Sabrina Alonso | **P:** Romina Caro<br>**VP:** Diego Dalena |
 | **6** | Aula 21 | Lic. y Ciclo Turismo | **P:** Alberto Szwarc<br>**VP:** Jorgelina Lamela | **P:** Alejandro Dajud<br>**VP:** Romina Clavero |
 | **7** | Aula 20 | Lic. Audiovisión | **P:** Daniela Margani<br>**VP:** Romina Aybar | **P:** Mariela Roscardi<br>**VP:** Ivana Cardo |
-| **8** | Aula 20 | Lic. Diseño Industrial | **P:** Fabian Martinez<br>**VP:** Leonardo Schiavo | **P:** Andres Ruscitti<br>**VP:** Pablo Caffaro |
+| **8** | **Polo Tecnológico** (Edif. Talleres - [Acta 11](https://www.unla.edu.ar/elecciones2026/acta-11-JE.pdf)) | Lic. Diseño Industrial | **P:** Fabian Martinez<br>**VP:** Leonardo Schiavo | **P:** Andres Ruscitti<br>**VP:** Pablo Caffaro |
 | **9** | Aula 20 | Lic. Diseño y Comunicación Visual | **P:** Agustin Enrico<br>**VP:** Javier Lorenzo | **P:** Alejandra Fazzio<br>**VP:** Lia Florencia Romero |
 | **10** | Aula 20 | Lic. Música y Traductorado | **P:** Gabriela Jaine<br>**VP:** Leandro Tassiello | **P:** Fernando Salvatierra<br>**VP:** Fernando Klichuk |
 | **11** | Aula 19 | Lic. y Ciclo Ciencias Políticas | **P:** Soledad Pont<br>**VP:** Florencia Martín | **P:** Ignacio Kuppe<br>**VP:** Vanina Louche |
