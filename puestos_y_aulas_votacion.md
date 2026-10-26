@@ -5,7 +5,7 @@
 ---
 
 ### 📍 Sedes Presenciales de Votación
-- **Edificio José Hernández** (Sede Central - Predio 29 de Septiembre 3901, Remedios de Escalada):
+- **Edificio José Hernández** (29 de Septiembre 3901, Remedios de Escalada):
   - **Puestos 1 al 7 y 9 al 20** (Aulas 21, 20, 19, 18 y Aula 5).
 - **Polo Tecnológico - Edificio Talleres** (Av. Hipólito Yrigoyen 5682, Remedios de Escalada):
   - **Puesto 8** (Licenciatura en Diseño Industrial, conforme [Acta N° 4](https://www.unla.edu.ar/elecciones2026/acta-4-JE.pdf) y ratificado por [Acta N° 11](https://www.unla.edu.ar/elecciones2026/acta-11-JE.pdf)).
