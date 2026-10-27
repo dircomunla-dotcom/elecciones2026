@@ -418,6 +418,23 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #41 — Actualización de Plataforma y Enlaces a Modalidad Virtual
+- **Fecha:** 27/10/2026
+- **Prompt:**
+  > *"En información general, dentro del recuadro de Modalidades y Fechas de Votación, en Modalidad Virtual, debe decir:
+  > Para el Claustro de Graduados/as, estudiantes de Posgrado y estudiantes de carreras a distancia.
+  > Fecha: Día 29 de Octubre de 2026.
+  > Horario: De 10:00 a 19:00 hs.
+  > Plataforma: Se habilitará el jueves 29 de octubre a las 10 H.
+  > (y en donde dice Plataforma se debe linkear a donde dice 💻 MODALIDAD VIRTUAL dentro de Puestos de Votación)
+  > En el menú Puestos de Votación, donde dice Sedes y Horarios de Comicios... Agregar Modalidad Virtual: Se habilitará en esta misma web el jueves 29 de octubre desde las 10 y agregar link a 💻 MODALIDAD VIRTUAL dentro de ese mismo menú"*
+- **Acción ejecutada:** En el recuadro de Modalidad Virtual de Información General en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html), se actualizó el texto de «Plataforma: Se habilitará el jueves 29 de octubre a las 10 H.» con enlace interactivo que conmuta hacia la sección «Puestos de Votación» y hace scroll suave a la tarjeta `id="card-modalidad-virtual"`. En la cabecera de «Sedes y Horarios de Comicios», se incorporó el ítem de Modalidad Virtual con enlace directo anclado a `💻 MODALIDAD VIRTUAL`. Se actualizó también [`puestos_y_aulas_votacion.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/puestos_y_aulas_votacion.md).
+- **Archivos modificados:**
+  - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html)
+  - [`puestos_y_aulas_votacion.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/puestos_y_aulas_votacion.md)
+  - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
