@@ -121,7 +121,7 @@
 | **18** | Aula 18 (Edif. Hernández) | Estudiantes | Trabajo Social / Educación Física (DESACO) | 27, 28 y 29/10 |
 | **19** | Aula 5 (Edif. Hernández) | Docente | Docentes ambos Departamentos | 27, 28 y 29/10 |
 | **20** | Aula 5 (Edif. Hernández) | Nodocente | Nodocentes ambos Departamentos | **29/10 ([Acta N° 10](https://www.unla.edu.ar/elecciones2026/acta-10-JE.pdf))** |
-| **20** | Virtual | Graduados / Distancia | Graduados/as, Posgrado y Carreras a Distancia | 27, 28 y 29/10 |
+| **-** | Virtual | Graduados / Distancia | Graduados/as, Posgrado y Carreras a Distancia | **29/10** |
 
 ---
 
