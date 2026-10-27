@@ -90,9 +90,10 @@
 #### 💻 MODALIDAD VIRTUAL — GRADUADOS/AS, POSGRADO Y DISTANCIA
 *Portal de Votación Remota Electrónica*
 
-- **Puesto de Votación N° 20 (Todas las Mesas):**
+- **Puesto Virtual:**
   - **Claustro:** Graduados/as empadronados/as, Estudiantes de Posgrado y Estudiantes de Carreras a Distancia.
-  - **Días:** 27, 28 y 29 de octubre de 2026.
+  - **Día de votación:** Jueves 29 de octubre de 2026.
+  - **Aclaración Campus Virtual:** Si tu correo registrado no coincide con el actual, comunicate con [administracion_campus@unla.edu.ar](mailto:administracion_campus@unla.edu.ar)
 
 ---
 
