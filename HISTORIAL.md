@@ -406,6 +406,17 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #40 — Publicación del Acta N° 13 y Noticia Principal
+- **Fecha:** 27/10/2026
+- **Prompt:**
+  > *"Agregué el archivo `acta-13-JE.pdf`. Por favor léelo, extrae su fecha y redacta una línea con su resumen para agregarlo arriba de todo en la sección de Actas de la Junta Electoral de index.html con su botón de descarga.
+  > También genera una noticia para poner primera en la sección correspondiente en Información general"*
+- **Acción ejecutada:** Lectura del archivo [`acta-13-JE.pdf`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/acta-13-JE.pdf), extracción de su fecha oficial (27 de octubre de 2026) y redacción del resumen resolutivo para la sección de Actas. Inserción de la tarjeta del Acta N° 13 en la primera posición de `#actas-list` con botón de descarga del PDF. Redacción e inserción de la noticia principal en el primer lugar de «Noticias y Novedades Electorales» en Información General detallando la resolución ante la presentación de la Lista 22, la continuidad de su opción en las mesas y la validez positiva de sus votos.
+- **Archivos modificados:**
+  - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html)
+  - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
