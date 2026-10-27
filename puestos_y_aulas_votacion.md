@@ -18,6 +18,7 @@
 - **Turnos diarios de mesa:**
   - **1° Turno:** 10:00 a 14:30 hs.
   - **2° Turno:** 14:30 a 19:00 hs.
+- **Modalidad Virtual:** Se habilitará en la web el jueves 29 de octubre desde las 10:00 hs (10:00 a 19:00 hs).
 
 ---
 
