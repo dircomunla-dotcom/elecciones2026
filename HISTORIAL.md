@@ -375,6 +375,21 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #38 — Ajuste de Contenido de Modalidad Virtual en Puestos de Votación
+- **Fecha:** 27/10/2026
+- **Prompt:**
+  > *"En el menú Puestos de Votación, donde dice Modalidad Virtual debe quedar este texto:
+  > Graduados/as y Distancia
+  > 29 de octubre
+  > Puesto Virtual:Graduados/as empadronados/as, Estudiantes de Posgrado y Estudiantes de Carreras a Distancia.
+  > Aclaración Campus Virtual: Si tu correo registrado no coincide con el actual, comunicate con administracion_campus@unla.edu.ar"*
+- **Acción ejecutada:** Actualización de la tarjeta «Modalidad Virtual» en la sección «Puestos de Votación» (`#sec-puestos-votacion`) de [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) con el título «Graduados/as y Distancia», subtítulo «29 de octubre», bloque «Puesto Virtual: Graduados/as empadronados/as, Estudiantes de Posgrado y Estudiantes de Carreras a Distancia.» y cuadro de aviso con enlace directo `mailto:administracion_campus@unla.edu.ar`. Sincronizado también en [`puestos_y_aulas_votacion.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/puestos_y_aulas_votacion.md).
+- **Archivos modificados:**
+  - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html)
+  - [`puestos_y_aulas_votacion.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/puestos_y_aulas_votacion.md)
+  - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
