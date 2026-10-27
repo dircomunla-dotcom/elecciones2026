@@ -458,14 +458,13 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
 - **Estado:** ✅ Completado.
 
-### 🔹 Prompt #44 — Integración de Video Tutorial de Votación Virtual
+### 🔹 Prompt #44 — Integración de Video Tutorial en index2.html
 - **Fecha:** 27/10/2026
 - **Prompt:**
   > *"En puestos de Votación, al costado del cuadro destinado a Modalidad Virtual, debemos colocar un video que está en youtube, que es un tutorial sobre cómo votar de manera virtual: https://youtu.be/BuxXE5F7jcY
   > Coloca el player en ese lugar con la menor cantidad posible de indicios de que es un video de youtube"*
-- **Acción ejecutada:** Se creó una nueva tarjeta complementaria (`id="card-tutorial-virtual"`) dentro del grid de Puestos de Votación en [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html) y [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) colocada al lado de «Modalidad Virtual». Se embebió el video oficial de YouTube utilizando el dominio sin cookies (`youtube-nocookie.com`) con parámetros optimizados de mínima identidad visual (`modestbranding=1`, `rel=0`, `iv_load_policy=3`, `playsinline=1`) en un contenedor responsivo 16:9 con diseño armónico.
+- **Acción ejecutada:** Se creó una nueva tarjeta complementaria (`id="card-tutorial-virtual"`) dentro del grid de Puestos de Votación exclusivamente en [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html) colocada al lado de «Modalidad Virtual». Se embebió el video oficial de YouTube utilizando el dominio sin cookies (`youtube-nocookie.com`) con parámetros optimizados de mínima identidad visual (`modestbranding=1`, `rel=0`, `iv_load_policy=3`, `playsinline=1`) en un contenedor responsivo 16:9 con diseño armónico. Se mantuvo [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) sin el reproductor para producción activa.
 - **Archivos modificados:**
-  - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html)
   - [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html)
   - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
 - **Estado:** ✅ Completado.
