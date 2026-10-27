@@ -391,6 +391,20 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #39 — Corrección de Fila Virtual en Tabla General de Puestos
+- **Fecha:** 27/10/2026
+- **Prompt:**
+  > *"en la tabla que está en la parte inferior en puestos de votación dice esto
+  > 20	Virtual	Graduados / Distancia	Graduados/as empadronados/as, Posgrado y Carreras a Distancia (Todas las Mesas)	27, 28 y 29/10	10 a 19 hs
+  > Debería decir
+  > Virtual	Graduados / Distancia	Graduados/as empadronados/as, Posgrado y Carreras a Distancia (Todas las Mesas)	29/10	10 a 19 hs"*
+- **Acción ejecutada:** Modificación de la fila correspondiente a Modalidad Virtual en la tabla general de puestos de votación en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html): remoción del número 20 (`colspan="2"` centrado para «Virtual»), fecha actualizada a «29/10». Ajustada también la nómina desplegable de autoridades y [`puestos_y_aulas_votacion.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/puestos_y_aulas_votacion.md).
+- **Archivos modificados:**
+  - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html)
+  - [`puestos_y_aulas_votacion.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/puestos_y_aulas_votacion.md)
+  - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
