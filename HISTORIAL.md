@@ -364,6 +364,16 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
 - **Acción ejecutada:** Se incorporó el enlace directo al archivo PDF oficial (`https://www.unla.edu.ar/elecciones2026/acta-10-JE.pdf` con `target="_blank"` y `rel="noopener"`) en cada una de las menciones textuales al **Acta N° 10** en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) (Modalidades de Votación, noticia del Acta N° 9, Cronograma Electoral, banner de Puestos de Votación, tarjeta de Aula 5, tabla comparativa de puestos y tabla de autoridades) y en el documento markdown [`puestos_y_aulas_votacion.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/puestos_y_aulas_votacion.md).
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #37 — Incorporación y Publicación del Acta N° 12
+- **Fecha:** 27/10/2026
+- **Prompt:**
+  > *"Agregué el archivo `acta-12-JE.pdf`. Por favor léelo, extrae su fecha y redacta una línea con su resumen para agregarlo arriba de todo en la sección de Actas de la Junta Electoral de index.html con su botón de descarga. Si bien en el texto del archivo dice Acta 18, considerala como Acta 12"*
+- **Acción ejecutada:** Lectura del archivo [`acta-12-JE.pdf`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/acta-12-JE.pdf), extracción de su fecha oficial (27 de octubre de 2026) y redacción del resumen resolutivo en una línea. Inserción de la tarjeta en primera posición dentro de `#actas-list` en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) con botón de descarga hacia `https://www.unla.edu.ar/elecciones2026/acta-12-JE.pdf`.
+- **Archivos modificados:**
+  - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html)
+  - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
