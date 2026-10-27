@@ -496,6 +496,17 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #47 — Video Tutorial en Modalidad Virtual de Información General (index e index2)
+- **Fecha:** 27/10/2026
+- **Prompt:**
+  > *"En index e index2, en Información general, dentro del cuadro de Modalidad Virtual, podemos poner el video tutorial que figura en Puestos de votación"*
+- **Acción ejecutada:** En [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) e [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html), dentro del cuadro de «Modalidad Virtual» en «Modalidades y Fechas de Votación» (sección Información General), se insertó el contenedor responsivo con el reproductor embebido de YouTube del instructivo en video (`https://www.youtube-nocookie.com/embed/BuxXE5F7jcY`) configurado con modo de privacidad y mínimas marcas.
+- **Archivos modificados:**
+  - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html)
+  - [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html)
+  - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
