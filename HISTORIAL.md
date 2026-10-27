@@ -54,6 +54,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **27/10/2026** | **Incorporación Acta N° 12** | Adición oficial de `acta-12-JE.pdf` en la sección «Actas de la Junta Electoral» de `index.html` con fecha 27 de octubre de 2026, constancia de inicio regular de las elecciones de cogobierno a las 10:00 hs en el Edificio José Hernández y Polo Tecnológico con la totalidad de autoridades convocadas y fiscales, sin observaciones, y botón de descarga directa. |
 | **27/10/2026** | **Ajuste de Texto Modalidad Virtual** | Actualización del texto en la tarjeta de «Modalidad Virtual» en la sección «Puestos de Votación» (`#sec-puestos-votacion`) de `index.html` y en `puestos_y_aulas_votacion.md`, estableciendo fecha del 29 de octubre, denominación de Puesto Virtual y aclaración de contacto para el Campus Virtual. |
 | **27/10/2026** | **Corrección de Fila Virtual en Tabla de Puestos** | En la tabla general de puestos de votación y nómina de autoridades de `index.html` y `puestos_y_aulas_votacion.md`, unificación/remoción del número 20 en la fila de Modalidad Virtual y corrección del día de votación exclusivamente a «29/10». |
+| **27/10/2026** | **Incorporación Acta N° 13 y Noticia Principal** | Adición de `acta-13-JE.pdf` en la sección «Actas de la Junta Electoral» con fecha 27 de octubre de 2026, resolución ante presentación extemporánea de Lista 22, ratificación de boleta en mesas y votos válidos positivos, y publicación de nueva noticia cabecera en «Noticias y Novedades Electorales» de Información General. |
 
 ---
 
