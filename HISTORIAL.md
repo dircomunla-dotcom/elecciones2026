@@ -470,6 +470,16 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #45 — Ampliación a 2 Columnas y Simplificación del Video Tutorial en index2.html
+- **Fecha:** 27/10/2026
+- **Prompt:**
+  > *"En index2, quisiera que el video ocupe más lugar (si es necesairio dos columnas). No hace falta que tenga tanto texto, con una chpaita que diga TUTORIAL PARA EL VOTO VIRTUAL (con el mismo estilo de la que dice 💻 MODALIDAD VIRTUAL) y el player ya está ok"*
+- **Acción ejecutada:** En [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html), se configuró la tarjeta `#card-tutorial-virtual` con la clase `.unla-card-span-2` (`grid-column: span 2` para pantallas de escritorio y tablets) para expandir el reproductor a 2 columnas. Se eliminaron textos, títulos y subtítulos adicionales, incorporando únicamente la chapita superior roja con el texto «TUTORIAL PARA EL VOTO VIRTUAL» con el estilo exacto de la tarjeta de Modalidad Virtual.
+- **Archivos modificados:**
+  - [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html)
+  - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
