@@ -61,6 +61,8 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **27/10/2026** | **Integración de Video Tutorial en index2.html** | Inclusión de una nueva tarjeta al lado de «Modalidad Virtual» en la sección «Puestos de Votación» exclusivamente en `index2.html` con el reproductor embebido de YouTube del instructivo en video (`https://youtu.be/BuxXE5F7jcY`), configurado con parámetros de mínimas marcas institucionales y modo de privacidad mejorada (`youtube-nocookie.com`). Se preserva `index.html` sin el reproductor. |
 | **27/10/2026** | **Ampliación a 2 Columnas y Simplificación del Video (index2.html)** | En `index2.html`, ampliación de la tarjeta del video tutorial a 2 columnas (`grid-column: span 2`) para mayor tamaño del reproductor, remoción de textos redundantes y estilización de la chapita «TUTORIAL PARA EL VOTO VIRTUAL» idéntica a «MODALIDAD VIRTUAL». |
 | **27/10/2026** | **Destacado DNI Físico en Modalidad Presencial (index e index2)** | Incorporación de un recuadro destacado institucional («¡NO TE OLVIDES CONCURRIR CON TU DNI FÍSICO!») dentro del bloque de «Modalidad Presencial» en la sección «Puestos de Votación» (`#sec-puestos-votacion`) y en la tarjeta de modalidades de «Información General» en `index.html` e `index2.html`, y en `puestos_y_aulas_votacion.md`. |
+| **27/10/2026** | **Video Tutorial en Modalidad Virtual (Información General)** | Integración del reproductor del video tutorial de voto virtual dentro de la tarjeta de «Modalidad Virtual» en «Información General» tanto en `index.html` como en `index2.html`. |
+
 
 
 ---
