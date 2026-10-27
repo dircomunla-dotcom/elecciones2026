@@ -436,6 +436,16 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #42 — Destaque Visual en Cabecera de Puestos de Votación
+- **Fecha:** 27/10/2026
+- **Prompt:**
+  > *"En el menú Puestos de Votación me gustaría que, en la ficha que encabeza, los textos Sedes Presenciales: y Modalidad Virtual: estén más destacados, a la manera de facilitar la lectura"*
+- **Acción ejecutada:** Reestructuración visual en el banner cabecera de «Sedes y Horarios de Comicios» en [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html), dividiendo las modalidades en dos cajas blancas independientes con bordes acentuados (borde izquierdo rojo UNLa para «🏢 Sedes Presenciales:» y dorado institucional para «💻 Modalidad Virtual:») y tipografía jerarquizada (15.5px, peso 800) para maximizar la legibilidad rápida.
+- **Archivos modificados:**
+  - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html)
+  - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
