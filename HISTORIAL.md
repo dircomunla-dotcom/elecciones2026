@@ -447,6 +447,16 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #43 — Copia index2.html con Botón de Acceso al Voto Virtual
+- **Fecha:** 27/10/2026
+- **Prompt:**
+  > *"copia el archivo index.html. A esa copia llamala index2.html. En ella coloca, dentro de Puestos de Votación, en Modalidad Virtual, en la parte de abajo del cuadro, un botón que diga ACCEDER AL VOTO VIRTUAL y colcoca un enlace de ejemplo en blank, que luego te pasaré el real."*
+- **Acción ejecutada:** Se generó la réplica exacta [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html) a partir de `index.html`. En la tarjeta de «Modalidad Virtual» dentro de la sección «Puestos de Votación», se integró en la parte inferior un botón con clase `unla-btn-primary`, ancho completo y texto «ACCEDER AL VOTO VIRTUAL», enlazado provisionalmente a `https://votacion.unla.edu.ar` con `target="_blank"` y `rel="noopener"`.
+- **Archivos modificados:**
+  - [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html)
+  - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
