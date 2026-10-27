@@ -149,4 +149,4 @@
 | **18** | Aula 18 | Trabajo Social / Educación Física | **P:** Victoria Turso<br>**VP:** Gustavo Castro | **P:** Jesica Artaza<br>**VP:** Alejandro Toutodjian |
 | **19** | Aula 5 | Docentes ambos Departamentos | **P:** Eliana Pared<br>**VP:** Sandra Serafini | **P:** Fernando Durán<br>**VP:** Omar Molina |
 | **20** | Aula 5 | Nodocentes ambos Deptos (29/10 - [Acta N° 10](https://www.unla.edu.ar/elecciones2026/acta-10-JE.pdf)) | **P:** Marcela Repossi<br>**VP:** Alejandra Cendra | **P:** Esteban Pintos<br>**VP:** Martín Hours |
-| **20** | Virtual | Graduados / Posgrado / Distancia | **P:** Lihuen Arscone<br>**VP:** Ana Laura Lurbe | *(Mismo turno / asignación)* |
+| **-** | Virtual | Graduados / Posgrado / Distancia (29/10) | **P:** Lihuen Arscone<br>**VP:** Ana Laura Lurbe | *(Mismo turno / asignación)* |
