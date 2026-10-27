@@ -482,6 +482,18 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #46 — Destacado de DNI Físico en Modalidad Presencial (index e index2)
+- **Fecha:** 27/10/2026
+- **Prompt:**
+  > *"en index e index2 poner, en puestos de votación, dentro de lo que es modalidad presencial, un destacado que remarque bien NO TE OLVIDES CONCURRIR CON TU DNI FÍSICO"*
+- **Acción ejecutada:** En [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) e [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html), se implementó un recuadro de aviso institucional destacado en ámbar/oro (`#fff8e6` con borde `#d97706` e ícono `🪪`) dentro del bloque de «Modalidad Presencial — Sedes y Puestos» en la sección «Puestos de Votación» (`#sec-puestos-votacion`) y de forma complementaria en la tarjeta de «Modalidad Presencial» de «Información General». El destacado remarca enfáticamente: **«¡NO TE OLVIDES CONCURRIR CON TU DNI FÍSICO!»** e indica que es obligatorio e indispensable y que no se admiten versiones digitales de Mi Argentina ni constancias. Se sincronizó también en [`puestos_y_aulas_votacion.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/puestos_y_aulas_votacion.md).
+- **Archivos modificados:**
+  - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html)
+  - [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html)
+  - [`puestos_y_aulas_votacion.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/puestos_y_aulas_votacion.md)
+  - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
