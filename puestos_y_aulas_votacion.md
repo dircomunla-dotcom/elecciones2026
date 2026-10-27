@@ -10,6 +10,9 @@
 - **Polo Tecnológico - Edificio Talleres** (Av. Hipólito Yrigoyen 5682, Remedios de Escalada):
   - **Puesto 8** (Licenciatura en Diseño Industrial, conforme [Acta N° 4](https://www.unla.edu.ar/elecciones2026/acta-4-JE.pdf) y ratificado por [Acta N° 11](https://www.unla.edu.ar/elecciones2026/acta-11-JE.pdf)).
 
+> 🪪 **¡IMPORTANTE - MODALIDAD PRESENCIAL!**  
+> **NO TE OLVIDES CONCURRIR CON TU DNI FÍSICO.** Es requisito obligatorio para emitir tu voto presencial (no se admiten versiones digitales de Mi Argentina ni constancias).
+
 ---
 
 ### 📅 Fechas y Horarios Generales de Votación
