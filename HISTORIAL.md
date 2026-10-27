@@ -55,6 +55,7 @@ Este documento sirve como bitácora central del proyecto del sitio web de **Elec
 | **27/10/2026** | **Ajuste de Texto Modalidad Virtual** | Actualización del texto en la tarjeta de «Modalidad Virtual» en la sección «Puestos de Votación» (`#sec-puestos-votacion`) de `index.html` y en `puestos_y_aulas_votacion.md`, estableciendo fecha del 29 de octubre, denominación de Puesto Virtual y aclaración de contacto para el Campus Virtual. |
 | **27/10/2026** | **Corrección de Fila Virtual en Tabla de Puestos** | En la tabla general de puestos de votación y nómina de autoridades de `index.html` y `puestos_y_aulas_votacion.md`, unificación/remoción del número 20 en la fila de Modalidad Virtual y corrección del día de votación exclusivamente a «29/10». |
 | **27/10/2026** | **Incorporación Acta N° 13 y Noticia Principal** | Adición de `acta-13-JE.pdf` en la sección «Actas de la Junta Electoral» con fecha 27 de octubre de 2026, resolución ante presentación extemporánea de Lista 22, ratificación de boleta en mesas y votos válidos positivos, y publicación de nueva noticia cabecera en «Noticias y Novedades Electorales» de Información General. |
+| **27/10/2026** | **Actualización y Enlaces a Modalidad Virtual** | En «Información General» (recuadro de modalidades), actualización del texto de Plataforma («Se habilitará el jueves 29 de octubre a las 10 H») con enlace directo a la tarjeta de Modalidad Virtual en Puestos de Votación. En «Puestos de Votación» (cabecera de Sedes y Horarios), incorporación del punto de Modalidad Virtual con enlace al card interactivo. |
 
 ---
 
