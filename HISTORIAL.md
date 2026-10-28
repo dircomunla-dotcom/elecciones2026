@@ -508,6 +508,20 @@ A continuación se documentan las instrucciones y prompts enviados a la IA, junt
   - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
 - **Estado:** ✅ Completado.
 
+### 🔹 Prompt #48 — Solución al error de reproducción de YouTube en servidor ("ID de reproducción")
+- **Fecha:** 28/10/2026
+- **Prompt:**
+  > *"Cuando quiero reproducir el video tutorial de youtuve (ltengo el sitio subido en un servidor), me pone Se produjo un error. Vuelve a intentarlo más tarde (ID de reproducción: riecDc8jgMkEBRcB)."*
+- **Diagnóstico:** El mensaje de error de YouTube con "ID de reproducción" en un servidor ocurre por dos motivos principales:
+  1. Uso del dominio restringido `youtube-nocookie.com`, el cual suele ser interceptado o bloqueado por extensiones de privacidad/adblockers o por fallas de token en conexiones cruzadas (CORS/Cookies de terceros).
+  2. Ausencia del atributo `referrerpolicy="strict-origin-when-cross-origin"` en el `<iframe>`, obligatorio según los nuevos estándares de seguridad del reproductor embebido de YouTube cuando el sitio web se ejecuta bajo HTTPS en un servidor real con cabeceras estrictas de referer.
+- **Acción ejecutada:** En [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html) e [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html), se actualizó la URL de inserción a `https://www.youtube.com/embed/BuxXE5F7jcY?rel=0&playsinline=1`, se añadió `referrerpolicy="strict-origin-when-cross-origin"` a los tags `<iframe>` y se agregó un enlace directo visible «Abrir en YouTube ↗» como alternativa inmediata ante bloqueadores de contenido.
+- **Archivos modificados:**
+  - [`index.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index.html)
+  - [`index2.html`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/index2.html)
+  - [`HISTORIAL.md`](file:///c:/Users/unla/Desktop/Antigravity/elecciones2026/HISTORIAL.md)
+- **Estado:** ✅ Completado.
+
 ---
 
 ## 🔄 5. ¿Cómo funciona la Sincronización Automática (Auto-Sync)?
